@@ -1,0 +1,16 @@
+{
+  "current": {
+    "city": "Montreal",
+    "region": "Occitanie", 
+    "country": "France",
+    "coordinates": {
+      "lat": 43.2001,
+      "lon": 1.9336
+    },
+    "startDate": "2025-09-13",
+    "endDate": "2025-10-29",
+    "timezone": "Europe/Paris"
+  },
+  "upcoming": [],
+  "past": []
+}

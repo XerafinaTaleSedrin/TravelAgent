@@ -1,0 +1,296 @@
+{
+  "sources": [
+    {
+      "name": "TripAdvisor Montreal (Occitanie)",
+      "url": "https://www.tripadvisor.com/Attractions-g1087974-Activities-Montreal_du_Gers_Gers_Occitanie.html",
+      "type": "attractions",
+      "selectors": {
+        "title": ".biGQs._P.fiohW.alXOW.NwcxK.GzNcM.ytVPx.UTQMg.RnEEZ.ngXxk",
+        "description": ".biGQs._P.pZUbB.KxBGd",
+        "rating": ".UctUV.d._R.Me.S4._a.H"
+      },
+      "active": true
+    },
+    {
+      "name": "Local Events - Occitanie",
+      "url": "https://www.tourisme-occitanie.com/agenda/",
+      "type": "events",
+      "selectors": {
+        "title": ".event-title",
+        "date": ".event-date",
+        "location": ".event-location"
+      },
+      "active": true
+    },
+    {
+      "name": "Grand Carcassonne Market Days",
+      "url": "https://www.grand-carcassonne-tourisme.co.uk/your-holiday-with-us/events/market-days/",
+      "type": "markets",
+      "selectors": {
+        "title": "h4.wp-block-heading, li",
+        "description": "li em, li",
+        "date": "h4.wp-block-heading"
+      },
+      "active": true,
+      "notes": "Markets organized by day of week. Day headers in h4, market details in ul>li. Filter out social/nav elements."
+    },
+    {
+      "name": "CDC Montagne Noire Agenda",
+      "url": "https://www.cdcmontagnenoire.fr/agenda",
+      "type": "events",
+      "selectors": {
+        "title": ".event-item h3, .agenda-item .title",
+        "description": ".event-description, .agenda-description",
+        "date": ".event-date, .agenda-date",
+        "location": ".event-location, .agenda-location"
+      },
+      "active": true,
+      "notes": "Wix-based site - selectors may need adjustment after testing"
+    },
+    {
+      "name": "Visit Occitanie Markets & Festivals",
+      "url": "https://www.visit-occitanie.com/",
+      "type": "festivals",
+      "selectors": {
+        "title": ".wp-block-button__link, .event-title, h2, h3",
+        "description": ".event-description, .wp-block-text, p",
+        "date": ".event-date, .date",
+        "location": ".event-location, .location"
+      },
+      "active": true,
+      "notes": "Focus on festival and market content. May need to navigate to specific market/festival pages."
+    },
+    {
+      "name": "PanneauPocket Local Announcements",
+      "url": "https://app.panneaupocket.com/",
+      "type": "announcements",
+      "selectors": {
+        "title": ".ville-name, .announcement-title",
+        "description": ".announcement-content, .event-description",
+        "date": ".announcement-date, .event-date"
+      },
+      "active": true,
+      "notes": "Requires specific municipality selection. May need location-specific URL customization."
+    },
+    {
+      "name": "Vide-Greniers Aude",
+      "url": "https://vide-greniers.org/evenements/Aude",
+      "type": "markets",
+      "selectors": {
+        "title": "script[type='application/ld+json'], .event-name, .title",
+        "description": "script[type='application/ld+json'], .event-details, .description",
+        "date": "script[type='application/ld+json'], .event-date, .date",
+        "location": "script[type='application/ld+json'], .event-location, .ville",
+        "link": "a[href*='/evenement/']"
+      },
+      "active": true,
+      "notes": "Uses JSON-LD structured data for event details. Individual event pages have better detail than listing page."
+    },
+    {
+      "name": "Marché Populaire Aude",
+      "url": "https://marche-populaire.com/evenements/Aude",
+      "type": "outdoor",
+      "selectors": {
+        "title": ".event-title, .title, h2, h3",
+        "description": ".event-description, .description, .contenu",
+        "date": ".event-date, .date, .when",
+        "location": ".event-location, .lieu, .where",
+        "time": ".event-time, .time, .horaire"
+      },
+      "active": true,
+      "notes": "Popular market site for Aude region. May have limited content currently."
+    },
+    {
+      "name": "Aude Tourisme Gourmet Festivals",
+      "url": "https://www.audetourisme.com/en/agenda/major-events/gourmet-festivals/",
+      "type": "festivals",
+      "selectors": {
+        "title": ".event-title, .title, h2, h3, .event-name",
+        "description": ".event-description, .description, .content, .event-content",
+        "date": ".event-date, .date, .when, .event-when",
+        "location": ".event-location, .lieu, .where, .event-where",
+        "time": ".event-time, .time, .horaire, .event-time"
+      },
+      "active": true,
+      "notes": "Aude Tourism official gourmet festival listings - food festivals, wine events, culinary celebrations"
+    },
+    {
+      "name": "Castelnaudary Cassoulet Festival",
+      "url": "https://www.castelnaudary-tourisme.com/en/temps-fort/la-fete-du-cassoulet/",
+      "type": "festivals",
+      "selectors": {
+        "title": ".event-title, .title, h1, h2, h3",
+        "description": ".event-description, .description, .content, p",
+        "date": ".event-date, .date, .when, .datetime",
+        "location": ".event-location, .lieu, .where, .address",
+        "time": ".event-time, .time, .horaire"
+      },
+      "active": true,
+      "notes": "Famous Cassoulet Festival in Castelnaudary - major regional food celebration"
+    },
+    {
+      "name": "Grand Carcassonne All Events",
+      "url": "https://www.grand-carcassonne-tourisme.co.uk/your-holiday-with-us/events/",
+      "type": "events",
+      "selectors": {
+        "title": "h4.wp-block-heading, h2, h3, .event-title",
+        "description": "li em, li, p, .event-description",
+        "date": "h4.wp-block-heading, .event-date, .date",
+        "location": ".event-location, .location"
+      },
+      "active": true,
+      "notes": "Broader Grand Carcassonne events page - includes festivals, cultural events, and other activities beyond just markets"
+    },
+    {
+      "name": "Gastronomiac Languedoc-Roussillon",
+      "url": "https://en.gastronomiac.com/gastronomical_events/calendar-gastronomic-festivals-region/",
+      "type": "festivals",
+      "selectors": {
+        "title": ".event-title, .title, h2, h3, h4",
+        "description": ".event-description, .description, .content, p",
+        "date": ".event-date, .date, .when, .datetime",
+        "location": ".event-location, .lieu, .where, .location",
+        "time": ".event-time, .time, .horaire"
+      },
+      "active": true,
+      "notes": "Specialized gastronomic events calendar for Languedoc-Roussillon region - food festivals, wine events, culinary celebrations"
+    },
+    {
+      "name": "Grand Carcassonne Apple Wine Rice Fair",
+      "url": "https://www.grand-carcassonne-tourisme.fr/agenda/foire-de-la-pomme-du-vin-et-du-riz/",
+      "type": "festivals",
+      "selectors": {
+        "title": "h1, h2, h3, .event-title, .title",
+        "description": ".content, .description, .event-description, p",
+        "date": ".date, .event-date, .when, .datetime",
+        "location": ".location, .event-location, .where, .venue",
+        "time": ".time, .event-time, .horaire"
+      },
+      "active": true,
+      "notes": "Specific Apple, Wine and Rice Fair event page - major local food festival"
+    },
+    {
+      "name": "Grand Carcassonne Full Agenda",
+      "url": "https://www.grand-carcassonne-tourisme.fr/votre-sejour-chez-nous/agenda/tout-lagenda/",
+      "type": "events",
+      "selectors": {
+        "title": "h2, h3, h4, .event-title, .title",
+        "description": ".description, .content, .event-description, p",
+        "date": ".date, .event-date, .when, .datetime",
+        "location": ".location, .event-location, .where, .lieu",
+        "time": ".time, .event-time, .horaire"
+      },
+      "active": true,
+      "notes": "Complete agenda from Grand Carcassonne Tourism (French site) - comprehensive event listings"
+    },
+    {
+      "name": "Ariège Pyrénées Main Agenda",
+      "url": "https://www.ariegepyrenees.com/en/preparer/agenda/",
+      "type": "events",
+      "selectors": {
+        "title": "h1, h2, h3, h4, .event-title, .title",
+        "description": ".description, .content, .event-description, p",
+        "date": ".date, .event-date, .when, .datetime",
+        "location": ".location, .event-location, .where, .lieu",
+        "time": ".time, .event-time, .horaire"
+      },
+      "active": true,
+      "notes": "Official Ariège Pyrénées tourism agenda - comprehensive events calendar with over 400 cultural/sporting events annually"
+    },
+    {
+      "name": "Foix Ariège Events",
+      "url": "https://www.foix-tourisme.com/en/agenda/fetes-manifestations/",
+      "type": "events",
+      "selectors": {
+        "title": "h2, h3, .event-title, .title",
+        "description": ".description, .content, .event-description, p",
+        "date": ".date, .event-date, .when, .datetime",
+        "location": ".location, .event-location, .where, .lieu",
+        "time": ".time, .event-time, .horaire"
+      },
+      "active": true,
+      "notes": "Foix area festivals and events - covers central Ariège region"
+    },
+    {
+      "name": "Pyrénées Ariégeoises Agenda",
+      "url": "https://en.pyrenees-ariegeoises.com/things-to-see-and-do/get-out/agenda/",
+      "type": "events",
+      "selectors": {
+        "title": "h2, h3, .event-title, .title",
+        "description": ".description, .content, .event-description, p",
+        "date": ".date, .event-date, .when, .datetime",
+        "location": ".location, .event-location, .where, .lieu",
+        "time": ".time, .event-time, .horaire"
+      },
+      "active": true,
+      "notes": "Pyrénées Ariégeoises regional events - mountain area events and activities"
+    },
+    {
+      "name": "Tarn Tourism All Calendar",
+      "url": "https://www.tourisme-tarn.com/uk/calendar/all-calendar/",
+      "type": "events",
+      "selectors": {
+        "title": "h2, h3, .event-title, .title",
+        "description": ".description, .content, .event-description, p",
+        "date": ".date, .event-date, .when, .datetime",
+        "location": ".location, .event-location, .where, .lieu",
+        "time": ".time, .event-time, .horaire"
+      },
+      "active": true,
+      "notes": "Official Tarn tourism calendar - all events in Tarn department"
+    },
+    {
+      "name": "Tarn Festivals Calendar",
+      "url": "https://www.tourisme-tarn.com/uk/calendar/festivals-calendar/",
+      "type": "festivals",
+      "selectors": {
+        "title": "h2, h3, .event-title, .title",
+        "description": ".description, .content, .event-description, p",
+        "date": ".date, .event-date, .when, .datetime",
+        "location": ".location, .event-location, .where, .lieu",
+        "time": ".time, .event-time, .horaire"
+      },
+      "active": true,
+      "notes": "Specialized Tarn festivals calendar - music, dance, comedy, theatre and cultural festivals"
+    },
+    {
+      "name": "Aude Tourism Main Agenda",
+      "url": "https://www.audetourisme.com/en/agenda/",
+      "type": "events",
+      "selectors": {
+        "title": "h2, h3, .event-title, .title",
+        "description": ".description, .content, .event-description, p",
+        "date": ".date, .event-date, .when, .datetime",
+        "location": ".location, .event-location, .where, .lieu",
+        "time": ".time, .event-time, .horaire"
+      },
+      "active": true,
+      "notes": "Main official Aude tourism agenda - comprehensive events listing for Aude department"
+    },
+    {
+      "name": "Aude Tourism All Events",
+      "url": "https://www.audetourisme.com/en/agenda/all-events/",
+      "type": "events",
+      "selectors": {
+        "title": "h2, h3, .event-title, .title",
+        "description": ".description, .content, .event-description, p",
+        "date": ".date, .event-date, .when, .datetime",
+        "location": ".location, .event-location, .where, .lieu",
+        "time": ".time, .event-time, .horaire"
+      },
+      "active": true,
+      "notes": "Complete Aude tourism events listing - all shows, concerts, markets, sports events, and traditional festivals"
+    }
+  ],
+  "categories": [
+    "attractions",
+    "events", 
+    "restaurants",
+    "outdoor",
+    "cultural",
+    "nightlife",
+    "markets",
+    "festivals",
+    "announcements"
+  ]
+}

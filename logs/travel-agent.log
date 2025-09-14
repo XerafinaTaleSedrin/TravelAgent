@@ -1,0 +1,589 @@
+{"level":"info","message":"Starting daily activity report generation","service":"travel-agent","timestamp":"2025-09-13T11:28:05.345Z"}
+{"level":"warn","location":{"city":"Montreal","coordinates":{"lat":43.2001,"lon":1.9336},"country":"France","endDate":"2024-10-29","region":"Occitanie","startDate":"2024-09-13","timezone":"Europe/Paris"},"message":"Current location period has ended","service":"travel-agent","timestamp":"2025-09-13T11:28:05.349Z"}
+{"level":"warn","message":"No active location found, skipping report generation","service":"travel-agent","timestamp":"2025-09-13T11:28:05.349Z"}
+{"level":"info","message":"Starting daily activity report generation","service":"travel-agent","timestamp":"2025-09-13T11:28:36.948Z"}
+{"level":"info","message":"Starting scrape of 5 sources for Montreal","service":"travel-agent","timestamp":"2025-09-13T11:28:36.954Z"}
+{"level":"info","message":"Scraping TripAdvisor Montreal (Occitanie) (attempt 1)","service":"travel-agent","timestamp":"2025-09-13T11:28:36.954Z"}
+{"error":"Request failed with status code 403","level":"error","message":"Error scraping TripAdvisor Montreal (Occitanie) (attempt 1)","service":"travel-agent","timestamp":"2025-09-13T11:28:37.489Z","url":"https://www.tripadvisor.com/Attractions-g1087974-Activities-Montreal_du_Gers_Gers_Occitanie.html"}
+{"level":"info","message":"Scraping TripAdvisor Montreal (Occitanie) (attempt 2)","service":"travel-agent","timestamp":"2025-09-13T11:28:39.500Z"}
+{"error":"Request failed with status code 403","level":"error","message":"Error scraping TripAdvisor Montreal (Occitanie) (attempt 2)","service":"travel-agent","timestamp":"2025-09-13T11:28:39.620Z","url":"https://www.tripadvisor.com/Attractions-g1087974-Activities-Montreal_du_Gers_Gers_Occitanie.html"}
+{"level":"info","message":"Scraping TripAdvisor Montreal (Occitanie) (attempt 3)","service":"travel-agent","timestamp":"2025-09-13T11:28:43.628Z"}
+{"error":"Request failed with status code 403","level":"error","message":"Error scraping TripAdvisor Montreal (Occitanie) (attempt 3)","service":"travel-agent","timestamp":"2025-09-13T11:28:43.757Z","url":"https://www.tripadvisor.com/Attractions-g1087974-Activities-Montreal_du_Gers_Gers_Occitanie.html"}
+{"level":"error","message":"Failed to scrape TripAdvisor Montreal (Occitanie) after 3 attempts","service":"travel-agent","timestamp":"2025-09-13T11:28:43.757Z"}
+{"level":"info","message":"Scraping Local Events - Occitanie (attempt 1)","service":"travel-agent","timestamp":"2025-09-13T11:28:45.766Z"}
+{"level":"info","message":"Successfully scraped 0 activities from Local Events - Occitanie","service":"travel-agent","timestamp":"2025-09-13T11:28:46.594Z"}
+{"level":"info","message":"Scraping Grand Carcassonne Market Days (attempt 1)","service":"travel-agent","timestamp":"2025-09-13T11:28:48.602Z"}
+{"level":"info","message":"Successfully scraped 69 activities from Grand Carcassonne Market Days","service":"travel-agent","timestamp":"2025-09-13T11:28:49.748Z"}
+{"level":"info","message":"Scraping CDC Montagne Noire Agenda (attempt 1)","service":"travel-agent","timestamp":"2025-09-13T11:28:51.762Z"}
+{"level":"info","message":"Successfully scraped 0 activities from CDC Montagne Noire Agenda","service":"travel-agent","timestamp":"2025-09-13T11:28:52.520Z"}
+{"level":"info","message":"Scraping Visit Occitanie Markets & Festivals (attempt 1)","service":"travel-agent","timestamp":"2025-09-13T11:28:54.532Z"}
+{"level":"info","message":"Successfully scraped 5 activities from Visit Occitanie Markets & Festivals","service":"travel-agent","timestamp":"2025-09-13T11:28:55.971Z"}
+{"level":"info","message":"Scraped 60 unique activities total","service":"travel-agent","timestamp":"2025-09-13T11:28:57.977Z"}
+{"activitiesCount":60,"filepath":"C:\\Users\\marik\\Documents\\Travel\\travel-agent\\data\\reports\\daily-report-2025-09-13.json","level":"info","message":"Daily report generated successfully","service":"travel-agent","timestamp":"2025-09-13T11:28:57.993Z"}
+{"level":"info","message":"Starting daily activity report generation","service":"travel-agent","timestamp":"2025-09-13T11:30:14.088Z"}
+{"level":"info","message":"Starting scrape of 5 sources for Montreal","service":"travel-agent","timestamp":"2025-09-13T11:30:14.094Z"}
+{"level":"info","message":"Scraping TripAdvisor Montreal (Occitanie) (attempt 1)","service":"travel-agent","timestamp":"2025-09-13T11:30:14.094Z"}
+{"error":"Request failed with status code 403","level":"error","message":"Error scraping TripAdvisor Montreal (Occitanie) (attempt 1)","service":"travel-agent","timestamp":"2025-09-13T11:30:14.453Z","url":"https://www.tripadvisor.com/Attractions-g1087974-Activities-Montreal_du_Gers_Gers_Occitanie.html"}
+{"level":"info","message":"Scraping TripAdvisor Montreal (Occitanie) (attempt 2)","service":"travel-agent","timestamp":"2025-09-13T11:30:16.457Z"}
+{"error":"Request failed with status code 403","level":"error","message":"Error scraping TripAdvisor Montreal (Occitanie) (attempt 2)","service":"travel-agent","timestamp":"2025-09-13T11:30:16.580Z","url":"https://www.tripadvisor.com/Attractions-g1087974-Activities-Montreal_du_Gers_Gers_Occitanie.html"}
+{"level":"info","message":"Scraping TripAdvisor Montreal (Occitanie) (attempt 3)","service":"travel-agent","timestamp":"2025-09-13T11:30:20.596Z"}
+{"error":"Request failed with status code 403","level":"error","message":"Error scraping TripAdvisor Montreal (Occitanie) (attempt 3)","service":"travel-agent","timestamp":"2025-09-13T11:30:20.717Z","url":"https://www.tripadvisor.com/Attractions-g1087974-Activities-Montreal_du_Gers_Gers_Occitanie.html"}
+{"level":"error","message":"Failed to scrape TripAdvisor Montreal (Occitanie) after 3 attempts","service":"travel-agent","timestamp":"2025-09-13T11:30:20.718Z"}
+{"level":"info","message":"Scraping Local Events - Occitanie (attempt 1)","service":"travel-agent","timestamp":"2025-09-13T11:30:22.731Z"}
+{"level":"info","message":"Successfully scraped 0 activities from Local Events - Occitanie","service":"travel-agent","timestamp":"2025-09-13T11:30:23.554Z"}
+{"level":"info","message":"Scraping Grand Carcassonne Market Days (attempt 1)","service":"travel-agent","timestamp":"2025-09-13T11:30:25.561Z"}
+{"level":"info","message":"Successfully scraped 69 activities from Grand Carcassonne Market Days","service":"travel-agent","timestamp":"2025-09-13T11:30:26.648Z"}
+{"level":"info","message":"Scraping CDC Montagne Noire Agenda (attempt 1)","service":"travel-agent","timestamp":"2025-09-13T11:30:28.659Z"}
+{"level":"info","message":"Successfully scraped 0 activities from CDC Montagne Noire Agenda","service":"travel-agent","timestamp":"2025-09-13T11:30:29.410Z"}
+{"level":"info","message":"Scraping Visit Occitanie Markets & Festivals (attempt 1)","service":"travel-agent","timestamp":"2025-09-13T11:30:31.419Z"}
+{"level":"info","message":"Successfully scraped 5 activities from Visit Occitanie Markets & Festivals","service":"travel-agent","timestamp":"2025-09-13T11:30:32.855Z"}
+{"level":"info","message":"Scraped 60 unique activities total","service":"travel-agent","timestamp":"2025-09-13T11:30:34.870Z"}
+{"activitiesCount":60,"filepath":"C:\\Users\\marik\\Documents\\Travel\\travel-agent\\data\\reports\\daily-report-2025-09-13.json","level":"info","message":"Daily report generated successfully","service":"travel-agent","timestamp":"2025-09-13T11:30:34.889Z"}
+{"level":"info","message":"Starting daily activity report generation","service":"travel-agent","timestamp":"2025-09-13T11:35:46.988Z"}
+{"level":"info","message":"Starting scrape of 5 sources for Montreal","service":"travel-agent","timestamp":"2025-09-13T11:35:46.992Z"}
+{"level":"info","message":"Scraping TripAdvisor Montreal (Occitanie) (attempt 1)","service":"travel-agent","timestamp":"2025-09-13T11:35:46.992Z"}
+{"error":"Request failed with status code 403","level":"error","message":"Error scraping TripAdvisor Montreal (Occitanie) (attempt 1)","service":"travel-agent","timestamp":"2025-09-13T11:35:47.368Z","url":"https://www.tripadvisor.com/Attractions-g1087974-Activities-Montreal_du_Gers_Gers_Occitanie.html"}
+{"level":"info","message":"Scraping TripAdvisor Montreal (Occitanie) (attempt 2)","service":"travel-agent","timestamp":"2025-09-13T11:35:49.372Z"}
+{"error":"Request failed with status code 403","level":"error","message":"Error scraping TripAdvisor Montreal (Occitanie) (attempt 2)","service":"travel-agent","timestamp":"2025-09-13T11:35:49.500Z","url":"https://www.tripadvisor.com/Attractions-g1087974-Activities-Montreal_du_Gers_Gers_Occitanie.html"}
+{"level":"info","message":"Scraping TripAdvisor Montreal (Occitanie) (attempt 3)","service":"travel-agent","timestamp":"2025-09-13T11:35:53.510Z"}
+{"error":"Request failed with status code 403","level":"error","message":"Error scraping TripAdvisor Montreal (Occitanie) (attempt 3)","service":"travel-agent","timestamp":"2025-09-13T11:35:53.632Z","url":"https://www.tripadvisor.com/Attractions-g1087974-Activities-Montreal_du_Gers_Gers_Occitanie.html"}
+{"level":"error","message":"Failed to scrape TripAdvisor Montreal (Occitanie) after 3 attempts","service":"travel-agent","timestamp":"2025-09-13T11:35:53.633Z"}
+{"level":"info","message":"Scraping Local Events - Occitanie (attempt 1)","service":"travel-agent","timestamp":"2025-09-13T11:35:55.637Z"}
+{"level":"info","message":"Successfully scraped 0 activities from Local Events - Occitanie","service":"travel-agent","timestamp":"2025-09-13T11:35:56.542Z"}
+{"level":"info","message":"Scraping Grand Carcassonne Market Days (attempt 1)","service":"travel-agent","timestamp":"2025-09-13T11:35:58.544Z"}
+{"level":"info","message":"Successfully scraped 1 activities from Grand Carcassonne Market Days","service":"travel-agent","timestamp":"2025-09-13T11:35:59.672Z"}
+{"level":"info","message":"Scraping CDC Montagne Noire Agenda (attempt 1)","service":"travel-agent","timestamp":"2025-09-13T11:36:01.680Z"}
+{"level":"info","message":"Successfully scraped 0 activities from CDC Montagne Noire Agenda","service":"travel-agent","timestamp":"2025-09-13T11:36:02.458Z"}
+{"level":"info","message":"Scraping Visit Occitanie Markets & Festivals (attempt 1)","service":"travel-agent","timestamp":"2025-09-13T11:36:04.465Z"}
+{"level":"info","message":"Successfully scraped 5 activities from Visit Occitanie Markets & Festivals","service":"travel-agent","timestamp":"2025-09-13T11:36:05.943Z"}
+{"level":"info","message":"Scraped 6 unique activities total","service":"travel-agent","timestamp":"2025-09-13T11:36:07.949Z"}
+{"activitiesCount":6,"filepath":"C:\\Users\\marik\\Documents\\Travel\\travel-agent\\data\\reports\\daily-report-2025-09-13.json","level":"info","message":"Daily report generated successfully","service":"travel-agent","timestamp":"2025-09-13T11:36:07.970Z"}
+{"level":"info","message":"Starting daily activity report generation","service":"travel-agent","timestamp":"2025-09-13T11:37:42.596Z"}
+{"level":"info","message":"Starting scrape of 5 sources for Montreal","service":"travel-agent","timestamp":"2025-09-13T11:37:42.600Z"}
+{"level":"info","message":"Scraping TripAdvisor Montreal (Occitanie) (attempt 1)","service":"travel-agent","timestamp":"2025-09-13T11:37:42.601Z"}
+{"error":"Request failed with status code 403","level":"error","message":"Error scraping TripAdvisor Montreal (Occitanie) (attempt 1)","service":"travel-agent","timestamp":"2025-09-13T11:37:42.961Z","url":"https://www.tripadvisor.com/Attractions-g1087974-Activities-Montreal_du_Gers_Gers_Occitanie.html"}
+{"level":"info","message":"Scraping TripAdvisor Montreal (Occitanie) (attempt 2)","service":"travel-agent","timestamp":"2025-09-13T11:37:44.965Z"}
+{"error":"Request failed with status code 403","level":"error","message":"Error scraping TripAdvisor Montreal (Occitanie) (attempt 2)","service":"travel-agent","timestamp":"2025-09-13T11:37:45.087Z","url":"https://www.tripadvisor.com/Attractions-g1087974-Activities-Montreal_du_Gers_Gers_Occitanie.html"}
+{"level":"info","message":"Scraping TripAdvisor Montreal (Occitanie) (attempt 3)","service":"travel-agent","timestamp":"2025-09-13T11:37:49.103Z"}
+{"error":"Request failed with status code 403","level":"error","message":"Error scraping TripAdvisor Montreal (Occitanie) (attempt 3)","service":"travel-agent","timestamp":"2025-09-13T11:37:49.224Z","url":"https://www.tripadvisor.com/Attractions-g1087974-Activities-Montreal_du_Gers_Gers_Occitanie.html"}
+{"level":"error","message":"Failed to scrape TripAdvisor Montreal (Occitanie) after 3 attempts","service":"travel-agent","timestamp":"2025-09-13T11:37:49.224Z"}
+{"level":"info","message":"Scraping Local Events - Occitanie (attempt 1)","service":"travel-agent","timestamp":"2025-09-13T11:37:51.229Z"}
+{"level":"info","message":"Successfully scraped 0 activities from Local Events - Occitanie","service":"travel-agent","timestamp":"2025-09-13T11:37:52.081Z"}
+{"level":"info","message":"Scraping Grand Carcassonne Market Days (attempt 1)","service":"travel-agent","timestamp":"2025-09-13T11:37:54.084Z"}
+{"level":"info","message":"Successfully scraped 1 activities from Grand Carcassonne Market Days","service":"travel-agent","timestamp":"2025-09-13T11:37:55.248Z"}
+{"level":"info","message":"Scraping CDC Montagne Noire Agenda (attempt 1)","service":"travel-agent","timestamp":"2025-09-13T11:37:57.251Z"}
+{"level":"info","message":"Successfully scraped 0 activities from CDC Montagne Noire Agenda","service":"travel-agent","timestamp":"2025-09-13T11:37:58.052Z"}
+{"level":"info","message":"Scraping Visit Occitanie Markets & Festivals (attempt 1)","service":"travel-agent","timestamp":"2025-09-13T11:38:00.061Z"}
+{"level":"info","message":"Successfully scraped 5 activities from Visit Occitanie Markets & Festivals","service":"travel-agent","timestamp":"2025-09-13T11:38:01.511Z"}
+{"level":"info","message":"Added 23 static market entries","service":"travel-agent","timestamp":"2025-09-13T11:38:03.514Z"}
+{"level":"info","message":"Scraped 23 unique activities total","service":"travel-agent","timestamp":"2025-09-13T11:38:03.514Z"}
+{"activitiesCount":23,"filepath":"C:\\Users\\marik\\Documents\\Travel\\travel-agent\\data\\reports\\daily-report-2025-09-13.json","level":"info","message":"Daily report generated successfully","service":"travel-agent","timestamp":"2025-09-13T11:38:03.535Z"}
+{"level":"info","message":"Starting daily activity report generation","service":"travel-agent","timestamp":"2025-09-13T11:42:57.740Z"}
+{"level":"info","message":"Starting scrape of 5 sources for Montreal","service":"travel-agent","timestamp":"2025-09-13T11:42:57.744Z"}
+{"level":"info","message":"Scraping TripAdvisor Montreal (Occitanie) (attempt 1)","service":"travel-agent","timestamp":"2025-09-13T11:42:57.745Z"}
+{"error":"Request failed with status code 403","level":"error","message":"Error scraping TripAdvisor Montreal (Occitanie) (attempt 1)","service":"travel-agent","timestamp":"2025-09-13T11:42:58.102Z","url":"https://www.tripadvisor.com/Attractions-g1087974-Activities-Montreal_du_Gers_Gers_Occitanie.html"}
+{"level":"info","message":"Scraping TripAdvisor Montreal (Occitanie) (attempt 2)","service":"travel-agent","timestamp":"2025-09-13T11:43:00.113Z"}
+{"error":"Request failed with status code 403","level":"error","message":"Error scraping TripAdvisor Montreal (Occitanie) (attempt 2)","service":"travel-agent","timestamp":"2025-09-13T11:43:00.240Z","url":"https://www.tripadvisor.com/Attractions-g1087974-Activities-Montreal_du_Gers_Gers_Occitanie.html"}
+{"level":"info","message":"Scraping TripAdvisor Montreal (Occitanie) (attempt 3)","service":"travel-agent","timestamp":"2025-09-13T11:43:04.245Z"}
+{"error":"Request failed with status code 403","level":"error","message":"Error scraping TripAdvisor Montreal (Occitanie) (attempt 3)","service":"travel-agent","timestamp":"2025-09-13T11:43:04.367Z","url":"https://www.tripadvisor.com/Attractions-g1087974-Activities-Montreal_du_Gers_Gers_Occitanie.html"}
+{"level":"error","message":"Failed to scrape TripAdvisor Montreal (Occitanie) after 3 attempts","service":"travel-agent","timestamp":"2025-09-13T11:43:04.367Z"}
+{"level":"info","message":"Scraping Local Events - Occitanie (attempt 1)","service":"travel-agent","timestamp":"2025-09-13T11:43:06.367Z"}
+{"level":"info","message":"Successfully scraped 0 activities from Local Events - Occitanie","service":"travel-agent","timestamp":"2025-09-13T11:43:07.214Z"}
+{"level":"info","message":"Scraping Grand Carcassonne Market Days (attempt 1)","service":"travel-agent","timestamp":"2025-09-13T11:43:09.217Z"}
+{"level":"info","message":"Successfully scraped 1 activities from Grand Carcassonne Market Days","service":"travel-agent","timestamp":"2025-09-13T11:43:10.366Z"}
+{"level":"info","message":"Scraping CDC Montagne Noire Agenda (attempt 1)","service":"travel-agent","timestamp":"2025-09-13T11:43:12.378Z"}
+{"level":"info","message":"Successfully scraped 0 activities from CDC Montagne Noire Agenda","service":"travel-agent","timestamp":"2025-09-13T11:43:13.125Z"}
+{"level":"info","message":"Scraping Visit Occitanie Markets & Festivals (attempt 1)","service":"travel-agent","timestamp":"2025-09-13T11:43:15.130Z"}
+{"level":"info","message":"Successfully scraped 5 activities from Visit Occitanie Markets & Festivals","service":"travel-agent","timestamp":"2025-09-13T11:43:16.571Z"}
+{"level":"info","message":"Added 23 static market entries","service":"travel-agent","timestamp":"2025-09-13T11:43:18.585Z"}
+{"level":"info","message":"Scraped 25 unique activities total","service":"travel-agent","timestamp":"2025-09-13T11:43:18.586Z"}
+{"activitiesCount":25,"filepath":"C:\\Users\\marik\\Documents\\Travel\\travel-agent\\data\\reports\\daily-report-2025-09-13.json","level":"info","message":"Daily report generated successfully","service":"travel-agent","timestamp":"2025-09-13T11:43:18.600Z"}
+{"level":"info","message":"Starting daily activity report generation","service":"travel-agent","timestamp":"2025-09-13T11:47:05.270Z"}
+{"level":"info","message":"Starting scrape of 5 sources for Montreal","service":"travel-agent","timestamp":"2025-09-13T11:47:05.274Z"}
+{"level":"info","message":"Scraping TripAdvisor Montreal (Occitanie) (attempt 1)","service":"travel-agent","timestamp":"2025-09-13T11:47:05.274Z"}
+{"error":"Request failed with status code 403","level":"error","message":"Error scraping TripAdvisor Montreal (Occitanie) (attempt 1)","service":"travel-agent","timestamp":"2025-09-13T11:47:05.635Z","url":"https://www.tripadvisor.com/Attractions-g1087974-Activities-Montreal_du_Gers_Gers_Occitanie.html"}
+{"level":"info","message":"Scraping TripAdvisor Montreal (Occitanie) (attempt 2)","service":"travel-agent","timestamp":"2025-09-13T11:47:07.643Z"}
+{"error":"Request failed with status code 403","level":"error","message":"Error scraping TripAdvisor Montreal (Occitanie) (attempt 2)","service":"travel-agent","timestamp":"2025-09-13T11:47:07.766Z","url":"https://www.tripadvisor.com/Attractions-g1087974-Activities-Montreal_du_Gers_Gers_Occitanie.html"}
+{"level":"info","message":"Scraping TripAdvisor Montreal (Occitanie) (attempt 3)","service":"travel-agent","timestamp":"2025-09-13T11:47:11.774Z"}
+{"error":"Request failed with status code 403","level":"error","message":"Error scraping TripAdvisor Montreal (Occitanie) (attempt 3)","service":"travel-agent","timestamp":"2025-09-13T11:47:11.892Z","url":"https://www.tripadvisor.com/Attractions-g1087974-Activities-Montreal_du_Gers_Gers_Occitanie.html"}
+{"level":"error","message":"Failed to scrape TripAdvisor Montreal (Occitanie) after 3 attempts","service":"travel-agent","timestamp":"2025-09-13T11:47:11.892Z"}
+{"level":"info","message":"Scraping Local Events - Occitanie (attempt 1)","service":"travel-agent","timestamp":"2025-09-13T11:47:13.905Z"}
+{"level":"info","message":"Successfully scraped 0 activities from Local Events - Occitanie","service":"travel-agent","timestamp":"2025-09-13T11:47:14.725Z"}
+{"level":"info","message":"Scraping Grand Carcassonne Market Days (attempt 1)","service":"travel-agent","timestamp":"2025-09-13T11:47:16.739Z"}
+{"level":"info","message":"Successfully scraped 1 activities from Grand Carcassonne Market Days","service":"travel-agent","timestamp":"2025-09-13T11:47:17.878Z"}
+{"level":"info","message":"Scraping CDC Montagne Noire Agenda (attempt 1)","service":"travel-agent","timestamp":"2025-09-13T11:47:19.892Z"}
+{"level":"info","message":"Successfully scraped 0 activities from CDC Montagne Noire Agenda","service":"travel-agent","timestamp":"2025-09-13T11:47:20.655Z"}
+{"level":"info","message":"Scraping Visit Occitanie Markets & Festivals (attempt 1)","service":"travel-agent","timestamp":"2025-09-13T11:47:22.667Z"}
+{"level":"info","message":"Successfully scraped 5 activities from Visit Occitanie Markets & Festivals","service":"travel-agent","timestamp":"2025-09-13T11:47:24.079Z"}
+{"level":"info","message":"Added 23 static market entries","service":"travel-agent","timestamp":"2025-09-13T11:47:26.086Z"}
+{"level":"info","message":"Scraped 25 unique activities total","service":"travel-agent","timestamp":"2025-09-13T11:47:26.087Z"}
+{"activitiesCount":25,"filepath":"C:\\Users\\marik\\Documents\\Travel\\travel-agent\\data\\reports\\daily-report-2025-09-13.json","level":"info","message":"Daily report generated successfully","service":"travel-agent","timestamp":"2025-09-13T11:47:26.102Z"}
+{"level":"info","message":"Starting daily activity report generation","service":"travel-agent","timestamp":"2025-09-13T11:49:55.513Z"}
+{"level":"info","message":"Starting scrape of 5 sources for Montreal","service":"travel-agent","timestamp":"2025-09-13T11:49:55.517Z"}
+{"level":"info","message":"Scraping TripAdvisor Montreal (Occitanie) (attempt 1)","service":"travel-agent","timestamp":"2025-09-13T11:49:55.517Z"}
+{"error":"Request failed with status code 403","level":"error","message":"Error scraping TripAdvisor Montreal (Occitanie) (attempt 1)","service":"travel-agent","timestamp":"2025-09-13T11:49:55.877Z","url":"https://www.tripadvisor.com/Attractions-g1087974-Activities-Montreal_du_Gers_Gers_Occitanie.html"}
+{"level":"info","message":"Scraping TripAdvisor Montreal (Occitanie) (attempt 2)","service":"travel-agent","timestamp":"2025-09-13T11:49:57.878Z"}
+{"error":"Request failed with status code 403","level":"error","message":"Error scraping TripAdvisor Montreal (Occitanie) (attempt 2)","service":"travel-agent","timestamp":"2025-09-13T11:49:58.000Z","url":"https://www.tripadvisor.com/Attractions-g1087974-Activities-Montreal_du_Gers_Gers_Occitanie.html"}
+{"level":"info","message":"Scraping TripAdvisor Montreal (Occitanie) (attempt 3)","service":"travel-agent","timestamp":"2025-09-13T11:50:02.009Z"}
+{"error":"Request failed with status code 403","level":"error","message":"Error scraping TripAdvisor Montreal (Occitanie) (attempt 3)","service":"travel-agent","timestamp":"2025-09-13T11:50:02.148Z","url":"https://www.tripadvisor.com/Attractions-g1087974-Activities-Montreal_du_Gers_Gers_Occitanie.html"}
+{"level":"error","message":"Failed to scrape TripAdvisor Montreal (Occitanie) after 3 attempts","service":"travel-agent","timestamp":"2025-09-13T11:50:02.148Z"}
+{"level":"info","message":"Scraping Local Events - Occitanie (attempt 1)","service":"travel-agent","timestamp":"2025-09-13T11:50:04.154Z"}
+{"level":"info","message":"Successfully scraped 0 activities from Local Events - Occitanie","service":"travel-agent","timestamp":"2025-09-13T11:50:05.035Z"}
+{"level":"info","message":"Scraping Grand Carcassonne Market Days (attempt 1)","service":"travel-agent","timestamp":"2025-09-13T11:50:07.040Z"}
+{"level":"info","message":"Successfully scraped 1 activities from Grand Carcassonne Market Days","service":"travel-agent","timestamp":"2025-09-13T11:50:08.136Z"}
+{"level":"info","message":"Scraping CDC Montagne Noire Agenda (attempt 1)","service":"travel-agent","timestamp":"2025-09-13T11:50:10.137Z"}
+{"level":"info","message":"Successfully scraped 0 activities from CDC Montagne Noire Agenda","service":"travel-agent","timestamp":"2025-09-13T11:50:10.920Z"}
+{"level":"info","message":"Scraping Visit Occitanie Markets & Festivals (attempt 1)","service":"travel-agent","timestamp":"2025-09-13T11:50:12.925Z"}
+{"level":"info","message":"Successfully scraped 5 activities from Visit Occitanie Markets & Festivals","service":"travel-agent","timestamp":"2025-09-13T11:50:14.357Z"}
+{"level":"info","message":"Added 23 static market entries","service":"travel-agent","timestamp":"2025-09-13T11:50:16.372Z"}
+{"level":"info","message":"Scraped 25 unique activities total","service":"travel-agent","timestamp":"2025-09-13T11:50:16.372Z"}
+{"activitiesCount":25,"filepath":"C:\\Users\\marik\\Documents\\Travel\\travel-agent\\data\\reports\\daily-report-2025-09-13.json","level":"info","message":"Daily report generated successfully","service":"travel-agent","timestamp":"2025-09-13T11:50:16.403Z"}
+{"level":"info","message":"Starting daily activity report generation","service":"travel-agent","timestamp":"2025-09-13T11:52:12.071Z"}
+{"level":"info","message":"Starting scrape of 7 sources for Montreal","service":"travel-agent","timestamp":"2025-09-13T11:52:12.076Z"}
+{"level":"info","message":"Scraping TripAdvisor Montreal (Occitanie) (attempt 1)","service":"travel-agent","timestamp":"2025-09-13T11:52:12.076Z"}
+{"error":"Request failed with status code 403","level":"error","message":"Error scraping TripAdvisor Montreal (Occitanie) (attempt 1)","service":"travel-agent","timestamp":"2025-09-13T11:52:12.442Z","url":"https://www.tripadvisor.com/Attractions-g1087974-Activities-Montreal_du_Gers_Gers_Occitanie.html"}
+{"level":"info","message":"Scraping TripAdvisor Montreal (Occitanie) (attempt 2)","service":"travel-agent","timestamp":"2025-09-13T11:52:14.451Z"}
+{"error":"Request failed with status code 403","level":"error","message":"Error scraping TripAdvisor Montreal (Occitanie) (attempt 2)","service":"travel-agent","timestamp":"2025-09-13T11:52:14.591Z","url":"https://www.tripadvisor.com/Attractions-g1087974-Activities-Montreal_du_Gers_Gers_Occitanie.html"}
+{"level":"info","message":"Scraping TripAdvisor Montreal (Occitanie) (attempt 3)","service":"travel-agent","timestamp":"2025-09-13T11:52:18.592Z"}
+{"error":"Request failed with status code 403","level":"error","message":"Error scraping TripAdvisor Montreal (Occitanie) (attempt 3)","service":"travel-agent","timestamp":"2025-09-13T11:52:18.714Z","url":"https://www.tripadvisor.com/Attractions-g1087974-Activities-Montreal_du_Gers_Gers_Occitanie.html"}
+{"level":"error","message":"Failed to scrape TripAdvisor Montreal (Occitanie) after 3 attempts","service":"travel-agent","timestamp":"2025-09-13T11:52:18.714Z"}
+{"level":"info","message":"Scraping Local Events - Occitanie (attempt 1)","service":"travel-agent","timestamp":"2025-09-13T11:52:20.716Z"}
+{"level":"info","message":"Successfully scraped 0 activities from Local Events - Occitanie","service":"travel-agent","timestamp":"2025-09-13T11:52:21.597Z"}
+{"level":"info","message":"Scraping Grand Carcassonne Market Days (attempt 1)","service":"travel-agent","timestamp":"2025-09-13T11:52:23.599Z"}
+{"level":"info","message":"Successfully scraped 1 activities from Grand Carcassonne Market Days","service":"travel-agent","timestamp":"2025-09-13T11:52:24.736Z"}
+{"level":"info","message":"Scraping CDC Montagne Noire Agenda (attempt 1)","service":"travel-agent","timestamp":"2025-09-13T11:52:26.738Z"}
+{"level":"info","message":"Successfully scraped 0 activities from CDC Montagne Noire Agenda","service":"travel-agent","timestamp":"2025-09-13T11:52:27.523Z"}
+{"level":"info","message":"Scraping Visit Occitanie Markets & Festivals (attempt 1)","service":"travel-agent","timestamp":"2025-09-13T11:52:29.543Z"}
+{"level":"info","message":"Successfully scraped 5 activities from Visit Occitanie Markets & Festivals","service":"travel-agent","timestamp":"2025-09-13T11:52:30.967Z"}
+{"level":"info","message":"Scraping PanneauPocket Local Announcements (attempt 1)","service":"travel-agent","timestamp":"2025-09-13T11:52:32.968Z"}
+{"level":"info","message":"Successfully scraped 0 activities from PanneauPocket Local Announcements","service":"travel-agent","timestamp":"2025-09-13T11:52:36.902Z"}
+{"level":"info","message":"Scraping Vide-Greniers Aude (attempt 1)","service":"travel-agent","timestamp":"2025-09-13T11:52:38.910Z"}
+{"level":"info","message":"Successfully scraped 5 activities from Vide-Greniers Aude","service":"travel-agent","timestamp":"2025-09-13T11:52:39.791Z"}
+{"level":"info","message":"Added 23 static market entries","service":"travel-agent","timestamp":"2025-09-13T11:52:41.800Z"}
+{"level":"info","message":"Scraped 30 unique activities total","service":"travel-agent","timestamp":"2025-09-13T11:52:41.801Z"}
+{"activitiesCount":30,"filepath":"C:\\Users\\marik\\Documents\\Travel\\travel-agent\\data\\reports\\daily-report-2025-09-13.json","level":"info","message":"Daily report generated successfully","service":"travel-agent","timestamp":"2025-09-13T11:52:41.825Z"}
+{"level":"info","message":"Starting daily activity report generation","service":"travel-agent","timestamp":"2025-09-13T11:54:25.902Z"}
+{"level":"info","message":"Starting scrape of 7 sources for Montreal","service":"travel-agent","timestamp":"2025-09-13T11:54:25.906Z"}
+{"level":"info","message":"Scraping TripAdvisor Montreal (Occitanie) (attempt 1)","service":"travel-agent","timestamp":"2025-09-13T11:54:25.907Z"}
+{"error":"Request failed with status code 403","level":"error","message":"Error scraping TripAdvisor Montreal (Occitanie) (attempt 1)","service":"travel-agent","timestamp":"2025-09-13T11:54:26.405Z","url":"https://www.tripadvisor.com/Attractions-g1087974-Activities-Montreal_du_Gers_Gers_Occitanie.html"}
+{"level":"info","message":"Scraping TripAdvisor Montreal (Occitanie) (attempt 2)","service":"travel-agent","timestamp":"2025-09-13T11:54:28.411Z"}
+{"error":"Request failed with status code 403","level":"error","message":"Error scraping TripAdvisor Montreal (Occitanie) (attempt 2)","service":"travel-agent","timestamp":"2025-09-13T11:54:28.532Z","url":"https://www.tripadvisor.com/Attractions-g1087974-Activities-Montreal_du_Gers_Gers_Occitanie.html"}
+{"level":"info","message":"Scraping TripAdvisor Montreal (Occitanie) (attempt 3)","service":"travel-agent","timestamp":"2025-09-13T11:54:32.535Z"}
+{"error":"Request failed with status code 403","level":"error","message":"Error scraping TripAdvisor Montreal (Occitanie) (attempt 3)","service":"travel-agent","timestamp":"2025-09-13T11:54:32.657Z","url":"https://www.tripadvisor.com/Attractions-g1087974-Activities-Montreal_du_Gers_Gers_Occitanie.html"}
+{"level":"error","message":"Failed to scrape TripAdvisor Montreal (Occitanie) after 3 attempts","service":"travel-agent","timestamp":"2025-09-13T11:54:32.657Z"}
+{"level":"info","message":"Scraping Local Events - Occitanie (attempt 1)","service":"travel-agent","timestamp":"2025-09-13T11:54:34.658Z"}
+{"level":"info","message":"Successfully scraped 0 activities from Local Events - Occitanie","service":"travel-agent","timestamp":"2025-09-13T11:54:35.513Z"}
+{"level":"info","message":"Scraping Grand Carcassonne Market Days (attempt 1)","service":"travel-agent","timestamp":"2025-09-13T11:54:37.515Z"}
+{"level":"info","message":"Successfully scraped 1 activities from Grand Carcassonne Market Days","service":"travel-agent","timestamp":"2025-09-13T11:54:38.613Z"}
+{"level":"info","message":"Scraping CDC Montagne Noire Agenda (attempt 1)","service":"travel-agent","timestamp":"2025-09-13T11:54:40.623Z"}
+{"level":"info","message":"Successfully scraped 0 activities from CDC Montagne Noire Agenda","service":"travel-agent","timestamp":"2025-09-13T11:54:41.444Z"}
+{"level":"info","message":"Scraping Visit Occitanie Markets & Festivals (attempt 1)","service":"travel-agent","timestamp":"2025-09-13T11:54:43.450Z"}
+{"level":"info","message":"Successfully scraped 5 activities from Visit Occitanie Markets & Festivals","service":"travel-agent","timestamp":"2025-09-13T11:54:44.879Z"}
+{"level":"info","message":"Scraping PanneauPocket Local Announcements (attempt 1)","service":"travel-agent","timestamp":"2025-09-13T11:54:46.884Z"}
+{"level":"info","message":"Successfully scraped 0 activities from PanneauPocket Local Announcements","service":"travel-agent","timestamp":"2025-09-13T11:54:50.951Z"}
+{"level":"info","message":"Scraping Vide-Greniers Aude (attempt 1)","service":"travel-agent","timestamp":"2025-09-13T11:54:52.954Z"}
+{"level":"info","message":"Successfully scraped 0 activities from Vide-Greniers Aude","service":"travel-agent","timestamp":"2025-09-13T11:54:53.865Z"}
+{"level":"info","message":"Added 24 static market entries","service":"travel-agent","timestamp":"2025-09-13T11:54:55.875Z"}
+{"level":"info","message":"Scraped 26 unique activities total","service":"travel-agent","timestamp":"2025-09-13T11:54:55.875Z"}
+{"activitiesCount":26,"filepath":"C:\\Users\\marik\\Documents\\Travel\\travel-agent\\data\\reports\\daily-report-2025-09-13.json","level":"info","message":"Daily report generated successfully","service":"travel-agent","timestamp":"2025-09-13T11:54:55.894Z"}
+{"level":"info","message":"Starting daily activity report generation","service":"travel-agent","timestamp":"2025-09-13T11:57:18.839Z"}
+{"level":"info","message":"Starting scrape of 7 sources for Montreal","service":"travel-agent","timestamp":"2025-09-13T11:57:18.843Z"}
+{"level":"info","message":"Scraping TripAdvisor Montreal (Occitanie) (attempt 1)","service":"travel-agent","timestamp":"2025-09-13T11:57:18.843Z"}
+{"error":"Request failed with status code 403","level":"error","message":"Error scraping TripAdvisor Montreal (Occitanie) (attempt 1)","service":"travel-agent","timestamp":"2025-09-13T11:57:19.206Z","url":"https://www.tripadvisor.com/Attractions-g1087974-Activities-Montreal_du_Gers_Gers_Occitanie.html"}
+{"level":"info","message":"Scraping TripAdvisor Montreal (Occitanie) (attempt 2)","service":"travel-agent","timestamp":"2025-09-13T11:57:21.217Z"}
+{"error":"Request failed with status code 403","level":"error","message":"Error scraping TripAdvisor Montreal (Occitanie) (attempt 2)","service":"travel-agent","timestamp":"2025-09-13T11:57:21.341Z","url":"https://www.tripadvisor.com/Attractions-g1087974-Activities-Montreal_du_Gers_Gers_Occitanie.html"}
+{"level":"info","message":"Scraping TripAdvisor Montreal (Occitanie) (attempt 3)","service":"travel-agent","timestamp":"2025-09-13T11:57:25.348Z"}
+{"error":"Request failed with status code 403","level":"error","message":"Error scraping TripAdvisor Montreal (Occitanie) (attempt 3)","service":"travel-agent","timestamp":"2025-09-13T11:57:25.470Z","url":"https://www.tripadvisor.com/Attractions-g1087974-Activities-Montreal_du_Gers_Gers_Occitanie.html"}
+{"level":"error","message":"Failed to scrape TripAdvisor Montreal (Occitanie) after 3 attempts","service":"travel-agent","timestamp":"2025-09-13T11:57:25.471Z"}
+{"level":"info","message":"Scraping Local Events - Occitanie (attempt 1)","service":"travel-agent","timestamp":"2025-09-13T11:57:27.475Z"}
+{"level":"info","message":"Successfully scraped 0 activities from Local Events - Occitanie","service":"travel-agent","timestamp":"2025-09-13T11:57:28.344Z"}
+{"level":"info","message":"Scraping Grand Carcassonne Market Days (attempt 1)","service":"travel-agent","timestamp":"2025-09-13T11:57:30.355Z"}
+{"level":"info","message":"Successfully scraped 1 activities from Grand Carcassonne Market Days","service":"travel-agent","timestamp":"2025-09-13T11:57:31.465Z"}
+{"level":"info","message":"Scraping CDC Montagne Noire Agenda (attempt 1)","service":"travel-agent","timestamp":"2025-09-13T11:57:33.470Z"}
+{"level":"info","message":"Successfully scraped 0 activities from CDC Montagne Noire Agenda","service":"travel-agent","timestamp":"2025-09-13T11:57:34.286Z"}
+{"level":"info","message":"Scraping Visit Occitanie Markets & Festivals (attempt 1)","service":"travel-agent","timestamp":"2025-09-13T11:57:36.301Z"}
+{"level":"info","message":"Successfully scraped 5 activities from Visit Occitanie Markets & Festivals","service":"travel-agent","timestamp":"2025-09-13T11:57:37.728Z"}
+{"level":"info","message":"Scraping PanneauPocket Local Announcements (attempt 1)","service":"travel-agent","timestamp":"2025-09-13T11:57:39.730Z"}
+{"level":"info","message":"Successfully scraped 0 activities from PanneauPocket Local Announcements","service":"travel-agent","timestamp":"2025-09-13T11:57:43.402Z"}
+{"level":"info","message":"Scraping Vide-Greniers Aude (attempt 1)","service":"travel-agent","timestamp":"2025-09-13T11:57:45.411Z"}
+{"level":"info","message":"Successfully scraped 0 activities from Vide-Greniers Aude","service":"travel-agent","timestamp":"2025-09-13T11:57:46.294Z"}
+{"level":"info","message":"Added 25 static market entries","service":"travel-agent","timestamp":"2025-09-13T11:57:48.295Z"}
+{"level":"info","message":"Scraped 27 unique activities total","service":"travel-agent","timestamp":"2025-09-13T11:57:48.296Z"}
+{"activitiesCount":27,"filepath":"C:\\Users\\marik\\Documents\\Travel\\travel-agent\\data\\reports\\daily-report-2025-09-13.json","level":"info","message":"Daily report generated successfully","service":"travel-agent","timestamp":"2025-09-13T11:57:48.321Z"}
+{"level":"info","message":"Starting daily activity report generation","service":"travel-agent","timestamp":"2025-09-13T11:59:47.769Z"}
+{"level":"info","message":"Starting scrape of 8 sources for Montreal","service":"travel-agent","timestamp":"2025-09-13T11:59:47.773Z"}
+{"level":"info","message":"Scraping TripAdvisor Montreal (Occitanie) (attempt 1)","service":"travel-agent","timestamp":"2025-09-13T11:59:47.774Z"}
+{"error":"Request failed with status code 403","level":"error","message":"Error scraping TripAdvisor Montreal (Occitanie) (attempt 1)","service":"travel-agent","timestamp":"2025-09-13T11:59:48.161Z","url":"https://www.tripadvisor.com/Attractions-g1087974-Activities-Montreal_du_Gers_Gers_Occitanie.html"}
+{"level":"info","message":"Scraping TripAdvisor Montreal (Occitanie) (attempt 2)","service":"travel-agent","timestamp":"2025-09-13T11:59:50.171Z"}
+{"error":"Request failed with status code 403","level":"error","message":"Error scraping TripAdvisor Montreal (Occitanie) (attempt 2)","service":"travel-agent","timestamp":"2025-09-13T11:59:50.293Z","url":"https://www.tripadvisor.com/Attractions-g1087974-Activities-Montreal_du_Gers_Gers_Occitanie.html"}
+{"level":"info","message":"Scraping TripAdvisor Montreal (Occitanie) (attempt 3)","service":"travel-agent","timestamp":"2025-09-13T11:59:54.304Z"}
+{"error":"Request failed with status code 403","level":"error","message":"Error scraping TripAdvisor Montreal (Occitanie) (attempt 3)","service":"travel-agent","timestamp":"2025-09-13T11:59:54.428Z","url":"https://www.tripadvisor.com/Attractions-g1087974-Activities-Montreal_du_Gers_Gers_Occitanie.html"}
+{"level":"error","message":"Failed to scrape TripAdvisor Montreal (Occitanie) after 3 attempts","service":"travel-agent","timestamp":"2025-09-13T11:59:54.429Z"}
+{"level":"info","message":"Scraping Local Events - Occitanie (attempt 1)","service":"travel-agent","timestamp":"2025-09-13T11:59:56.431Z"}
+{"level":"info","message":"Successfully scraped 0 activities from Local Events - Occitanie","service":"travel-agent","timestamp":"2025-09-13T11:59:57.261Z"}
+{"level":"info","message":"Scraping Grand Carcassonne Market Days (attempt 1)","service":"travel-agent","timestamp":"2025-09-13T11:59:59.266Z"}
+{"level":"info","message":"Successfully scraped 1 activities from Grand Carcassonne Market Days","service":"travel-agent","timestamp":"2025-09-13T12:00:00.400Z"}
+{"level":"info","message":"Scraping CDC Montagne Noire Agenda (attempt 1)","service":"travel-agent","timestamp":"2025-09-13T12:00:02.407Z"}
+{"level":"info","message":"Successfully scraped 0 activities from CDC Montagne Noire Agenda","service":"travel-agent","timestamp":"2025-09-13T12:00:03.170Z"}
+{"level":"info","message":"Scraping Visit Occitanie Markets & Festivals (attempt 1)","service":"travel-agent","timestamp":"2025-09-13T12:00:05.178Z"}
+{"level":"info","message":"Successfully scraped 5 activities from Visit Occitanie Markets & Festivals","service":"travel-agent","timestamp":"2025-09-13T12:00:06.618Z"}
+{"level":"info","message":"Scraping PanneauPocket Local Announcements (attempt 1)","service":"travel-agent","timestamp":"2025-09-13T12:00:08.632Z"}
+{"level":"info","message":"Successfully scraped 0 activities from PanneauPocket Local Announcements","service":"travel-agent","timestamp":"2025-09-13T12:00:12.287Z"}
+{"level":"info","message":"Scraping Vide-Greniers Aude (attempt 1)","service":"travel-agent","timestamp":"2025-09-13T12:00:14.296Z"}
+{"level":"info","message":"Successfully scraped 0 activities from Vide-Greniers Aude","service":"travel-agent","timestamp":"2025-09-13T12:00:15.148Z"}
+{"level":"info","message":"Scraping Marché Populaire Aude (attempt 1)","service":"travel-agent","timestamp":"2025-09-13T12:00:17.162Z"}
+{"level":"info","message":"Successfully scraped 2 activities from Marché Populaire Aude","service":"travel-agent","timestamp":"2025-09-13T12:00:17.935Z"}
+{"level":"info","message":"Added 25 static market entries","service":"travel-agent","timestamp":"2025-09-13T12:00:19.943Z"}
+{"level":"info","message":"Scraped 29 unique activities total","service":"travel-agent","timestamp":"2025-09-13T12:00:19.944Z"}
+{"activitiesCount":29,"filepath":"C:\\Users\\marik\\Documents\\Travel\\travel-agent\\data\\reports\\daily-report-2025-09-13.json","level":"info","message":"Daily report generated successfully","service":"travel-agent","timestamp":"2025-09-13T12:00:19.960Z"}
+{"level":"info","message":"Starting daily activity report generation","service":"travel-agent","timestamp":"2025-09-13T12:02:00.161Z"}
+{"level":"info","message":"Starting scrape of 8 sources for Montreal","service":"travel-agent","timestamp":"2025-09-13T12:02:00.166Z"}
+{"level":"info","message":"Scraping TripAdvisor Montreal (Occitanie) (attempt 1)","service":"travel-agent","timestamp":"2025-09-13T12:02:00.166Z"}
+{"error":"Request failed with status code 403","level":"error","message":"Error scraping TripAdvisor Montreal (Occitanie) (attempt 1)","service":"travel-agent","timestamp":"2025-09-13T12:02:00.618Z","url":"https://www.tripadvisor.com/Attractions-g1087974-Activities-Montreal_du_Gers_Gers_Occitanie.html"}
+{"level":"info","message":"Scraping TripAdvisor Montreal (Occitanie) (attempt 2)","service":"travel-agent","timestamp":"2025-09-13T12:02:02.624Z"}
+{"error":"Request failed with status code 403","level":"error","message":"Error scraping TripAdvisor Montreal (Occitanie) (attempt 2)","service":"travel-agent","timestamp":"2025-09-13T12:02:02.748Z","url":"https://www.tripadvisor.com/Attractions-g1087974-Activities-Montreal_du_Gers_Gers_Occitanie.html"}
+{"level":"info","message":"Scraping TripAdvisor Montreal (Occitanie) (attempt 3)","service":"travel-agent","timestamp":"2025-09-13T12:02:06.752Z"}
+{"error":"Request failed with status code 403","level":"error","message":"Error scraping TripAdvisor Montreal (Occitanie) (attempt 3)","service":"travel-agent","timestamp":"2025-09-13T12:02:06.873Z","url":"https://www.tripadvisor.com/Attractions-g1087974-Activities-Montreal_du_Gers_Gers_Occitanie.html"}
+{"level":"error","message":"Failed to scrape TripAdvisor Montreal (Occitanie) after 3 attempts","service":"travel-agent","timestamp":"2025-09-13T12:02:06.873Z"}
+{"level":"info","message":"Scraping Local Events - Occitanie (attempt 1)","service":"travel-agent","timestamp":"2025-09-13T12:02:08.881Z"}
+{"level":"info","message":"Successfully scraped 0 activities from Local Events - Occitanie","service":"travel-agent","timestamp":"2025-09-13T12:02:09.735Z"}
+{"level":"info","message":"Scraping Grand Carcassonne Market Days (attempt 1)","service":"travel-agent","timestamp":"2025-09-13T12:02:11.737Z"}
+{"level":"info","message":"Successfully scraped 1 activities from Grand Carcassonne Market Days","service":"travel-agent","timestamp":"2025-09-13T12:02:12.653Z"}
+{"level":"info","message":"Scraping CDC Montagne Noire Agenda (attempt 1)","service":"travel-agent","timestamp":"2025-09-13T12:02:14.663Z"}
+{"level":"info","message":"Successfully scraped 0 activities from CDC Montagne Noire Agenda","service":"travel-agent","timestamp":"2025-09-13T12:02:15.435Z"}
+{"level":"info","message":"Scraping Visit Occitanie Markets & Festivals (attempt 1)","service":"travel-agent","timestamp":"2025-09-13T12:02:17.441Z"}
+{"level":"info","message":"Successfully scraped 5 activities from Visit Occitanie Markets & Festivals","service":"travel-agent","timestamp":"2025-09-13T12:02:18.879Z"}
+{"level":"info","message":"Scraping PanneauPocket Local Announcements (attempt 1)","service":"travel-agent","timestamp":"2025-09-13T12:02:20.881Z"}
+{"level":"info","message":"Successfully scraped 0 activities from PanneauPocket Local Announcements","service":"travel-agent","timestamp":"2025-09-13T12:02:24.703Z"}
+{"level":"info","message":"Scraping Vide-Greniers Aude (attempt 1)","service":"travel-agent","timestamp":"2025-09-13T12:02:26.707Z"}
+{"level":"info","message":"Successfully scraped 0 activities from Vide-Greniers Aude","service":"travel-agent","timestamp":"2025-09-13T12:02:27.621Z"}
+{"level":"info","message":"Scraping Marché Populaire Aude (attempt 1)","service":"travel-agent","timestamp":"2025-09-13T12:02:29.624Z"}
+{"level":"info","message":"Successfully scraped 2 activities from Marché Populaire Aude","service":"travel-agent","timestamp":"2025-09-13T12:02:30.379Z"}
+{"level":"info","message":"Added 25 static market entries","service":"travel-agent","timestamp":"2025-09-13T12:02:32.384Z"}
+{"level":"info","message":"Scraped 29 unique activities total","service":"travel-agent","timestamp":"2025-09-13T12:02:32.384Z"}
+{"activitiesCount":29,"filepath":"C:\\Users\\marik\\Documents\\Travel\\travel-agent\\data\\reports\\daily-report-2025-09-13.json","level":"info","message":"Daily report generated successfully","service":"travel-agent","timestamp":"2025-09-13T12:02:32.403Z"}
+{"level":"info","message":"Starting daily activity report generation","service":"travel-agent","timestamp":"2025-09-13T12:06:02.531Z"}
+{"level":"info","message":"Starting scrape of 9 sources for Montreal","service":"travel-agent","timestamp":"2025-09-13T12:06:02.536Z"}
+{"level":"info","message":"Scraping TripAdvisor Montreal (Occitanie) (attempt 1)","service":"travel-agent","timestamp":"2025-09-13T12:06:02.537Z"}
+{"error":"Request failed with status code 403","level":"error","message":"Error scraping TripAdvisor Montreal (Occitanie) (attempt 1)","service":"travel-agent","timestamp":"2025-09-13T12:06:02.908Z","url":"https://www.tripadvisor.com/Attractions-g1087974-Activities-Montreal_du_Gers_Gers_Occitanie.html"}
+{"level":"info","message":"Scraping TripAdvisor Montreal (Occitanie) (attempt 2)","service":"travel-agent","timestamp":"2025-09-13T12:06:04.917Z"}
+{"error":"Request failed with status code 403","level":"error","message":"Error scraping TripAdvisor Montreal (Occitanie) (attempt 2)","service":"travel-agent","timestamp":"2025-09-13T12:06:05.038Z","url":"https://www.tripadvisor.com/Attractions-g1087974-Activities-Montreal_du_Gers_Gers_Occitanie.html"}
+{"level":"info","message":"Scraping TripAdvisor Montreal (Occitanie) (attempt 3)","service":"travel-agent","timestamp":"2025-09-13T12:06:09.042Z"}
+{"error":"Request failed with status code 403","level":"error","message":"Error scraping TripAdvisor Montreal (Occitanie) (attempt 3)","service":"travel-agent","timestamp":"2025-09-13T12:06:09.184Z","url":"https://www.tripadvisor.com/Attractions-g1087974-Activities-Montreal_du_Gers_Gers_Occitanie.html"}
+{"level":"error","message":"Failed to scrape TripAdvisor Montreal (Occitanie) after 3 attempts","service":"travel-agent","timestamp":"2025-09-13T12:06:09.185Z"}
+{"level":"info","message":"Scraping Local Events - Occitanie (attempt 1)","service":"travel-agent","timestamp":"2025-09-13T12:06:11.197Z"}
+{"level":"info","message":"Successfully scraped 0 activities from Local Events - Occitanie","service":"travel-agent","timestamp":"2025-09-13T12:06:12.074Z"}
+{"level":"info","message":"Scraping Grand Carcassonne Market Days (attempt 1)","service":"travel-agent","timestamp":"2025-09-13T12:06:14.085Z"}
+{"level":"info","message":"Successfully scraped 1 activities from Grand Carcassonne Market Days","service":"travel-agent","timestamp":"2025-09-13T12:06:15.201Z"}
+{"level":"info","message":"Scraping CDC Montagne Noire Agenda (attempt 1)","service":"travel-agent","timestamp":"2025-09-13T12:06:17.213Z"}
+{"level":"info","message":"Successfully scraped 0 activities from CDC Montagne Noire Agenda","service":"travel-agent","timestamp":"2025-09-13T12:06:17.977Z"}
+{"level":"info","message":"Scraping Visit Occitanie Markets & Festivals (attempt 1)","service":"travel-agent","timestamp":"2025-09-13T12:06:19.981Z"}
+{"level":"info","message":"Successfully scraped 5 activities from Visit Occitanie Markets & Festivals","service":"travel-agent","timestamp":"2025-09-13T12:06:21.398Z"}
+{"level":"info","message":"Scraping PanneauPocket Local Announcements (attempt 1)","service":"travel-agent","timestamp":"2025-09-13T12:06:23.401Z"}
+{"level":"info","message":"Successfully scraped 0 activities from PanneauPocket Local Announcements","service":"travel-agent","timestamp":"2025-09-13T12:06:27.627Z"}
+{"level":"info","message":"Scraping Vide-Greniers Aude (attempt 1)","service":"travel-agent","timestamp":"2025-09-13T12:06:29.630Z"}
+{"level":"info","message":"Successfully scraped 0 activities from Vide-Greniers Aude","service":"travel-agent","timestamp":"2025-09-13T12:06:30.518Z"}
+{"level":"info","message":"Scraping Marché Populaire Aude (attempt 1)","service":"travel-agent","timestamp":"2025-09-13T12:06:32.521Z"}
+{"level":"info","message":"Successfully scraped 2 activities from Marché Populaire Aude","service":"travel-agent","timestamp":"2025-09-13T12:06:33.272Z"}
+{"level":"info","message":"Scraping Aude Tourisme Gourmet Festivals (attempt 1)","service":"travel-agent","timestamp":"2025-09-13T12:06:35.276Z"}
+{"level":"info","message":"Successfully scraped 10 activities from Aude Tourisme Gourmet Festivals","service":"travel-agent","timestamp":"2025-09-13T12:06:36.064Z"}
+{"level":"info","message":"Added 25 static market entries","service":"travel-agent","timestamp":"2025-09-13T12:06:38.072Z"}
+{"level":"info","message":"Scraped 39 unique activities total","service":"travel-agent","timestamp":"2025-09-13T12:06:38.072Z"}
+{"activitiesCount":39,"filepath":"C:\\Users\\marik\\Documents\\Travel\\travel-agent\\data\\reports\\daily-report-2025-09-13.json","level":"info","message":"Daily report generated successfully","service":"travel-agent","timestamp":"2025-09-13T12:06:38.092Z"}
+{"level":"info","message":"Starting daily activity report generation","service":"travel-agent","timestamp":"2025-09-13T12:26:37.964Z"}
+{"level":"info","message":"Starting scrape of 14 sources for Montreal","service":"travel-agent","timestamp":"2025-09-13T12:26:37.969Z"}
+{"level":"info","message":"Scraping TripAdvisor Montreal (Occitanie) (attempt 1)","service":"travel-agent","timestamp":"2025-09-13T12:26:37.970Z"}
+{"error":"Request failed with status code 403","level":"error","message":"Error scraping TripAdvisor Montreal (Occitanie) (attempt 1)","service":"travel-agent","timestamp":"2025-09-13T12:26:38.333Z","url":"https://www.tripadvisor.com/Attractions-g1087974-Activities-Montreal_du_Gers_Gers_Occitanie.html"}
+{"level":"info","message":"Scraping TripAdvisor Montreal (Occitanie) (attempt 2)","service":"travel-agent","timestamp":"2025-09-13T12:26:40.336Z"}
+{"error":"Request failed with status code 403","level":"error","message":"Error scraping TripAdvisor Montreal (Occitanie) (attempt 2)","service":"travel-agent","timestamp":"2025-09-13T12:26:40.458Z","url":"https://www.tripadvisor.com/Attractions-g1087974-Activities-Montreal_du_Gers_Gers_Occitanie.html"}
+{"level":"info","message":"Scraping TripAdvisor Montreal (Occitanie) (attempt 3)","service":"travel-agent","timestamp":"2025-09-13T12:26:44.465Z"}
+{"error":"Request failed with status code 403","level":"error","message":"Error scraping TripAdvisor Montreal (Occitanie) (attempt 3)","service":"travel-agent","timestamp":"2025-09-13T12:26:44.634Z","url":"https://www.tripadvisor.com/Attractions-g1087974-Activities-Montreal_du_Gers_Gers_Occitanie.html"}
+{"level":"error","message":"Failed to scrape TripAdvisor Montreal (Occitanie) after 3 attempts","service":"travel-agent","timestamp":"2025-09-13T12:26:44.634Z"}
+{"level":"info","message":"Scraping Local Events - Occitanie (attempt 1)","service":"travel-agent","timestamp":"2025-09-13T12:26:46.636Z"}
+{"level":"info","message":"Successfully scraped 0 activities from Local Events - Occitanie","service":"travel-agent","timestamp":"2025-09-13T12:26:47.646Z"}
+{"level":"info","message":"Scraping Grand Carcassonne Market Days (attempt 1)","service":"travel-agent","timestamp":"2025-09-13T12:26:49.661Z"}
+{"level":"info","message":"Successfully scraped 1 activities from Grand Carcassonne Market Days","service":"travel-agent","timestamp":"2025-09-13T12:26:50.839Z"}
+{"level":"info","message":"Scraping CDC Montagne Noire Agenda (attempt 1)","service":"travel-agent","timestamp":"2025-09-13T12:26:52.844Z"}
+{"level":"info","message":"Successfully scraped 0 activities from CDC Montagne Noire Agenda","service":"travel-agent","timestamp":"2025-09-13T12:26:53.846Z"}
+{"level":"info","message":"Scraping Visit Occitanie Markets & Festivals (attempt 1)","service":"travel-agent","timestamp":"2025-09-13T12:26:55.848Z"}
+{"level":"info","message":"Successfully scraped 5 activities from Visit Occitanie Markets & Festivals","service":"travel-agent","timestamp":"2025-09-13T12:26:57.685Z"}
+{"level":"info","message":"Scraping PanneauPocket Local Announcements (attempt 1)","service":"travel-agent","timestamp":"2025-09-13T12:26:59.689Z"}
+{"level":"info","message":"Successfully scraped 0 activities from PanneauPocket Local Announcements","service":"travel-agent","timestamp":"2025-09-13T12:27:03.841Z"}
+{"level":"info","message":"Scraping Vide-Greniers Aude (attempt 1)","service":"travel-agent","timestamp":"2025-09-13T12:27:05.841Z"}
+{"level":"info","message":"Successfully scraped 0 activities from Vide-Greniers Aude","service":"travel-agent","timestamp":"2025-09-13T12:27:06.740Z"}
+{"level":"info","message":"Scraping Marché Populaire Aude (attempt 1)","service":"travel-agent","timestamp":"2025-09-13T12:27:08.744Z"}
+{"level":"info","message":"Successfully scraped 2 activities from Marché Populaire Aude","service":"travel-agent","timestamp":"2025-09-13T12:27:09.502Z"}
+{"level":"info","message":"Scraping Aude Tourisme Gourmet Festivals (attempt 1)","service":"travel-agent","timestamp":"2025-09-13T12:27:11.506Z"}
+{"level":"info","message":"Successfully scraped 10 activities from Aude Tourisme Gourmet Festivals","service":"travel-agent","timestamp":"2025-09-13T12:27:12.316Z"}
+{"level":"info","message":"Scraping Castelnaudary Cassoulet Festival (attempt 1)","service":"travel-agent","timestamp":"2025-09-13T12:27:14.320Z"}
+{"level":"info","message":"Successfully scraped 10 activities from Castelnaudary Cassoulet Festival","service":"travel-agent","timestamp":"2025-09-13T12:27:15.321Z"}
+{"level":"info","message":"Scraping Grand Carcassonne All Events (attempt 1)","service":"travel-agent","timestamp":"2025-09-13T12:27:17.322Z"}
+{"level":"info","message":"Successfully scraped 3 activities from Grand Carcassonne All Events","service":"travel-agent","timestamp":"2025-09-13T12:27:18.356Z"}
+{"level":"info","message":"Scraping Gastronomiac Languedoc-Roussillon (attempt 1)","service":"travel-agent","timestamp":"2025-09-13T12:27:20.360Z"}
+{"level":"info","message":"Successfully scraped 2 activities from Gastronomiac Languedoc-Roussillon","service":"travel-agent","timestamp":"2025-09-13T12:27:21.364Z"}
+{"level":"info","message":"Scraping Grand Carcassonne Apple Wine Rice Fair (attempt 1)","service":"travel-agent","timestamp":"2025-09-13T12:27:23.364Z"}
+{"level":"info","message":"Successfully scraped 4 activities from Grand Carcassonne Apple Wine Rice Fair","service":"travel-agent","timestamp":"2025-09-13T12:27:24.520Z"}
+{"level":"info","message":"Scraping Grand Carcassonne Full Agenda (attempt 1)","service":"travel-agent","timestamp":"2025-09-13T12:27:26.531Z"}
+{"level":"info","message":"Successfully scraped 14 activities from Grand Carcassonne Full Agenda","service":"travel-agent","timestamp":"2025-09-13T12:27:27.161Z"}
+{"level":"info","message":"Added 25 static market entries","service":"travel-agent","timestamp":"2025-09-13T12:27:29.166Z"}
+{"level":"info","message":"Scraped 71 unique activities total","service":"travel-agent","timestamp":"2025-09-13T12:27:29.166Z"}
+{"activitiesCount":71,"filepath":"C:\\Users\\marik\\Documents\\Travel\\travel-agent\\data\\reports\\daily-report-2025-09-13.json","level":"info","message":"Daily report generated successfully","service":"travel-agent","timestamp":"2025-09-13T12:27:29.191Z"}
+{"level":"info","message":"Starting daily activity report generation","service":"travel-agent","timestamp":"2025-09-13T20:07:09.605Z"}
+{"level":"info","message":"Starting scrape of 14 sources for Montreal","service":"travel-agent","timestamp":"2025-09-13T20:07:09.610Z"}
+{"level":"info","message":"Scraping TripAdvisor Montreal (Occitanie) (attempt 1)","service":"travel-agent","timestamp":"2025-09-13T20:07:09.610Z"}
+{"error":"Request failed with status code 403","level":"error","message":"Error scraping TripAdvisor Montreal (Occitanie) (attempt 1)","service":"travel-agent","timestamp":"2025-09-13T20:07:10.217Z","url":"https://www.tripadvisor.com/Attractions-g1087974-Activities-Montreal_du_Gers_Gers_Occitanie.html"}
+{"level":"info","message":"Scraping TripAdvisor Montreal (Occitanie) (attempt 2)","service":"travel-agent","timestamp":"2025-09-13T20:07:12.218Z"}
+{"error":"Request failed with status code 403","level":"error","message":"Error scraping TripAdvisor Montreal (Occitanie) (attempt 2)","service":"travel-agent","timestamp":"2025-09-13T20:07:12.337Z","url":"https://www.tripadvisor.com/Attractions-g1087974-Activities-Montreal_du_Gers_Gers_Occitanie.html"}
+{"level":"info","message":"Scraping TripAdvisor Montreal (Occitanie) (attempt 3)","service":"travel-agent","timestamp":"2025-09-13T20:07:16.349Z"}
+{"error":"Request failed with status code 403","level":"error","message":"Error scraping TripAdvisor Montreal (Occitanie) (attempt 3)","service":"travel-agent","timestamp":"2025-09-13T20:07:16.480Z","url":"https://www.tripadvisor.com/Attractions-g1087974-Activities-Montreal_du_Gers_Gers_Occitanie.html"}
+{"level":"error","message":"Failed to scrape TripAdvisor Montreal (Occitanie) after 3 attempts","service":"travel-agent","timestamp":"2025-09-13T20:07:16.481Z"}
+{"level":"info","message":"Scraping Local Events - Occitanie (attempt 1)","service":"travel-agent","timestamp":"2025-09-13T20:07:18.486Z"}
+{"level":"info","message":"Successfully scraped 0 activities from Local Events - Occitanie","service":"travel-agent","timestamp":"2025-09-13T20:07:19.433Z"}
+{"level":"info","message":"Scraping Grand Carcassonne Market Days (attempt 1)","service":"travel-agent","timestamp":"2025-09-13T20:07:21.439Z"}
+{"level":"info","message":"Successfully scraped 1 activities from Grand Carcassonne Market Days","service":"travel-agent","timestamp":"2025-09-13T20:07:22.608Z"}
+{"level":"info","message":"Scraping CDC Montagne Noire Agenda (attempt 1)","service":"travel-agent","timestamp":"2025-09-13T20:07:24.629Z"}
+{"level":"info","message":"Successfully scraped 0 activities from CDC Montagne Noire Agenda","service":"travel-agent","timestamp":"2025-09-13T20:07:25.531Z"}
+{"level":"info","message":"Scraping Visit Occitanie Markets & Festivals (attempt 1)","service":"travel-agent","timestamp":"2025-09-13T20:07:27.541Z"}
+{"level":"info","message":"Successfully scraped 5 activities from Visit Occitanie Markets & Festivals","service":"travel-agent","timestamp":"2025-09-13T20:07:29.186Z"}
+{"level":"info","message":"Scraping PanneauPocket Local Announcements (attempt 1)","service":"travel-agent","timestamp":"2025-09-13T20:07:31.199Z"}
+{"level":"info","message":"Successfully scraped 0 activities from PanneauPocket Local Announcements","service":"travel-agent","timestamp":"2025-09-13T20:07:34.931Z"}
+{"level":"info","message":"Scraping Vide-Greniers Aude (attempt 1)","service":"travel-agent","timestamp":"2025-09-13T20:07:36.932Z"}
+{"level":"info","message":"Successfully scraped 0 activities from Vide-Greniers Aude","service":"travel-agent","timestamp":"2025-09-13T20:07:37.727Z"}
+{"level":"info","message":"Scraping Marché Populaire Aude (attempt 1)","service":"travel-agent","timestamp":"2025-09-13T20:07:39.733Z"}
+{"level":"info","message":"Successfully scraped 2 activities from Marché Populaire Aude","service":"travel-agent","timestamp":"2025-09-13T20:07:40.616Z"}
+{"level":"info","message":"Scraping Aude Tourisme Gourmet Festivals (attempt 1)","service":"travel-agent","timestamp":"2025-09-13T20:07:42.618Z"}
+{"level":"info","message":"Successfully scraped 10 activities from Aude Tourisme Gourmet Festivals","service":"travel-agent","timestamp":"2025-09-13T20:07:43.462Z"}
+{"level":"info","message":"Scraping Castelnaudary Cassoulet Festival (attempt 1)","service":"travel-agent","timestamp":"2025-09-13T20:07:45.469Z"}
+{"level":"info","message":"Successfully scraped 10 activities from Castelnaudary Cassoulet Festival","service":"travel-agent","timestamp":"2025-09-13T20:07:46.524Z"}
+{"level":"info","message":"Scraping Grand Carcassonne All Events (attempt 1)","service":"travel-agent","timestamp":"2025-09-13T20:07:48.527Z"}
+{"level":"info","message":"Successfully scraped 3 activities from Grand Carcassonne All Events","service":"travel-agent","timestamp":"2025-09-13T20:07:49.563Z"}
+{"level":"info","message":"Scraping Gastronomiac Languedoc-Roussillon (attempt 1)","service":"travel-agent","timestamp":"2025-09-13T20:07:51.578Z"}
+{"level":"info","message":"Successfully scraped 2 activities from Gastronomiac Languedoc-Roussillon","service":"travel-agent","timestamp":"2025-09-13T20:07:52.806Z"}
+{"level":"info","message":"Scraping Grand Carcassonne Apple Wine Rice Fair (attempt 1)","service":"travel-agent","timestamp":"2025-09-13T20:07:54.819Z"}
+{"level":"info","message":"Successfully scraped 4 activities from Grand Carcassonne Apple Wine Rice Fair","service":"travel-agent","timestamp":"2025-09-13T20:07:55.927Z"}
+{"level":"info","message":"Scraping Grand Carcassonne Full Agenda (attempt 1)","service":"travel-agent","timestamp":"2025-09-13T20:07:57.935Z"}
+{"level":"info","message":"Successfully scraped 14 activities from Grand Carcassonne Full Agenda","service":"travel-agent","timestamp":"2025-09-13T20:07:58.816Z"}
+{"level":"info","message":"Added 25 static market entries","service":"travel-agent","timestamp":"2025-09-13T20:08:00.829Z"}
+{"level":"info","message":"Scraped 71 unique activities total","service":"travel-agent","timestamp":"2025-09-13T20:08:00.830Z"}
+{"activitiesCount":71,"filepath":"C:\\Users\\marik\\Documents\\Travel\\travel-agent\\data\\reports\\daily-report-2025-09-13.json","level":"info","message":"Daily report generated successfully","service":"travel-agent","timestamp":"2025-09-13T20:08:00.855Z"}
+{"level":"info","message":"Starting daily activity report generation","service":"travel-agent","timestamp":"2025-09-13T20:17:26.118Z"}
+{"level":"info","message":"Starting scrape of 21 sources for Montreal","service":"travel-agent","timestamp":"2025-09-13T20:17:26.122Z"}
+{"level":"info","message":"Scraping TripAdvisor Montreal (Occitanie) (attempt 1)","service":"travel-agent","timestamp":"2025-09-13T20:17:26.122Z"}
+{"error":"Request failed with status code 403","level":"error","message":"Error scraping TripAdvisor Montreal (Occitanie) (attempt 1)","service":"travel-agent","timestamp":"2025-09-13T20:17:26.479Z","url":"https://www.tripadvisor.com/Attractions-g1087974-Activities-Montreal_du_Gers_Gers_Occitanie.html"}
+{"level":"info","message":"Scraping TripAdvisor Montreal (Occitanie) (attempt 2)","service":"travel-agent","timestamp":"2025-09-13T20:17:28.495Z"}
+{"error":"Request failed with status code 403","level":"error","message":"Error scraping TripAdvisor Montreal (Occitanie) (attempt 2)","service":"travel-agent","timestamp":"2025-09-13T20:17:28.614Z","url":"https://www.tripadvisor.com/Attractions-g1087974-Activities-Montreal_du_Gers_Gers_Occitanie.html"}
+{"level":"info","message":"Scraping TripAdvisor Montreal (Occitanie) (attempt 3)","service":"travel-agent","timestamp":"2025-09-13T20:17:32.626Z"}
+{"error":"Request failed with status code 403","level":"error","message":"Error scraping TripAdvisor Montreal (Occitanie) (attempt 3)","service":"travel-agent","timestamp":"2025-09-13T20:17:32.754Z","url":"https://www.tripadvisor.com/Attractions-g1087974-Activities-Montreal_du_Gers_Gers_Occitanie.html"}
+{"level":"error","message":"Failed to scrape TripAdvisor Montreal (Occitanie) after 3 attempts","service":"travel-agent","timestamp":"2025-09-13T20:17:32.755Z"}
+{"level":"info","message":"Scraping Local Events - Occitanie (attempt 1)","service":"travel-agent","timestamp":"2025-09-13T20:17:34.769Z"}
+{"level":"info","message":"Successfully scraped 0 activities from Local Events - Occitanie","service":"travel-agent","timestamp":"2025-09-13T20:17:35.554Z"}
+{"level":"info","message":"Scraping Grand Carcassonne Market Days (attempt 1)","service":"travel-agent","timestamp":"2025-09-13T20:17:37.562Z"}
+{"level":"info","message":"Successfully scraped 1 activities from Grand Carcassonne Market Days","service":"travel-agent","timestamp":"2025-09-13T20:17:38.609Z"}
+{"level":"info","message":"Scraping CDC Montagne Noire Agenda (attempt 1)","service":"travel-agent","timestamp":"2025-09-13T20:17:40.612Z"}
+{"level":"info","message":"Successfully scraped 0 activities from CDC Montagne Noire Agenda","service":"travel-agent","timestamp":"2025-09-13T20:17:41.305Z"}
+{"level":"info","message":"Scraping Visit Occitanie Markets & Festivals (attempt 1)","service":"travel-agent","timestamp":"2025-09-13T20:17:43.321Z"}
+{"level":"info","message":"Successfully scraped 5 activities from Visit Occitanie Markets & Festivals","service":"travel-agent","timestamp":"2025-09-13T20:17:44.666Z"}
+{"level":"info","message":"Scraping PanneauPocket Local Announcements (attempt 1)","service":"travel-agent","timestamp":"2025-09-13T20:17:46.675Z"}
+{"level":"info","message":"Successfully scraped 0 activities from PanneauPocket Local Announcements","service":"travel-agent","timestamp":"2025-09-13T20:17:50.131Z"}
+{"level":"info","message":"Scraping Vide-Greniers Aude (attempt 1)","service":"travel-agent","timestamp":"2025-09-13T20:17:52.135Z"}
+{"level":"info","message":"Successfully scraped 0 activities from Vide-Greniers Aude","service":"travel-agent","timestamp":"2025-09-13T20:17:52.984Z"}
+{"level":"info","message":"Scraping Marché Populaire Aude (attempt 1)","service":"travel-agent","timestamp":"2025-09-13T20:17:54.992Z"}
+{"level":"info","message":"Successfully scraped 2 activities from Marché Populaire Aude","service":"travel-agent","timestamp":"2025-09-13T20:17:55.715Z"}
+{"level":"info","message":"Scraping Aude Tourisme Gourmet Festivals (attempt 1)","service":"travel-agent","timestamp":"2025-09-13T20:17:57.729Z"}
+{"level":"info","message":"Successfully scraped 10 activities from Aude Tourisme Gourmet Festivals","service":"travel-agent","timestamp":"2025-09-13T20:17:58.477Z"}
+{"level":"info","message":"Scraping Castelnaudary Cassoulet Festival (attempt 1)","service":"travel-agent","timestamp":"2025-09-13T20:18:00.490Z"}
+{"level":"info","message":"Successfully scraped 10 activities from Castelnaudary Cassoulet Festival","service":"travel-agent","timestamp":"2025-09-13T20:18:01.417Z"}
+{"level":"info","message":"Scraping Grand Carcassonne All Events (attempt 1)","service":"travel-agent","timestamp":"2025-09-13T20:18:03.433Z"}
+{"level":"info","message":"Successfully scraped 3 activities from Grand Carcassonne All Events","service":"travel-agent","timestamp":"2025-09-13T20:18:04.446Z"}
+{"level":"info","message":"Scraping Gastronomiac Languedoc-Roussillon (attempt 1)","service":"travel-agent","timestamp":"2025-09-13T20:18:06.459Z"}
+{"level":"info","message":"Successfully scraped 2 activities from Gastronomiac Languedoc-Roussillon","service":"travel-agent","timestamp":"2025-09-13T20:18:07.467Z"}
+{"level":"info","message":"Scraping Grand Carcassonne Apple Wine Rice Fair (attempt 1)","service":"travel-agent","timestamp":"2025-09-13T20:18:09.480Z"}
+{"level":"info","message":"Successfully scraped 4 activities from Grand Carcassonne Apple Wine Rice Fair","service":"travel-agent","timestamp":"2025-09-13T20:18:10.580Z"}
+{"level":"info","message":"Scraping Grand Carcassonne Full Agenda (attempt 1)","service":"travel-agent","timestamp":"2025-09-13T20:18:12.593Z"}
+{"level":"info","message":"Successfully scraped 14 activities from Grand Carcassonne Full Agenda","service":"travel-agent","timestamp":"2025-09-13T20:18:13.253Z"}
+{"level":"info","message":"Scraping Ariège Pyrénées Main Agenda (attempt 1)","service":"travel-agent","timestamp":"2025-09-13T20:18:15.255Z"}
+{"level":"info","message":"Successfully scraped 10 activities from Ariège Pyrénées Main Agenda","service":"travel-agent","timestamp":"2025-09-13T20:18:16.208Z"}
+{"level":"info","message":"Scraping Foix Ariège Events (attempt 1)","service":"travel-agent","timestamp":"2025-09-13T20:18:18.213Z"}
+{"level":"info","message":"Successfully scraped 12 activities from Foix Ariège Events","service":"travel-agent","timestamp":"2025-09-13T20:18:19.258Z"}
+{"level":"info","message":"Scraping Pyrénées Ariégeoises Agenda (attempt 1)","service":"travel-agent","timestamp":"2025-09-13T20:18:21.265Z"}
+{"level":"info","message":"Successfully scraped 4 activities from Pyrénées Ariégeoises Agenda","service":"travel-agent","timestamp":"2025-09-13T20:18:25.648Z"}
+{"level":"info","message":"Scraping Tarn Tourism All Calendar (attempt 1)","service":"travel-agent","timestamp":"2025-09-13T20:18:27.673Z"}
+{"level":"info","message":"Successfully scraped 29 activities from Tarn Tourism All Calendar","service":"travel-agent","timestamp":"2025-09-13T20:18:29.676Z"}
+{"level":"info","message":"Scraping Tarn Festivals Calendar (attempt 1)","service":"travel-agent","timestamp":"2025-09-13T20:18:31.678Z"}
+{"level":"info","message":"Successfully scraped 31 activities from Tarn Festivals Calendar","service":"travel-agent","timestamp":"2025-09-13T20:18:32.216Z"}
+{"level":"info","message":"Scraping Aude Tourism Main Agenda (attempt 1)","service":"travel-agent","timestamp":"2025-09-13T20:18:34.229Z"}
+{"level":"info","message":"Successfully scraped 7 activities from Aude Tourism Main Agenda","service":"travel-agent","timestamp":"2025-09-13T20:18:35.008Z"}
+{"level":"info","message":"Scraping Aude Tourism All Events (attempt 1)","service":"travel-agent","timestamp":"2025-09-13T20:18:37.014Z"}
+{"level":"info","message":"Successfully scraped 24 activities from Aude Tourism All Events","service":"travel-agent","timestamp":"2025-09-13T20:18:37.410Z"}
+{"level":"info","message":"Added 25 static market entries","service":"travel-agent","timestamp":"2025-09-13T20:18:39.411Z"}
+{"level":"info","message":"Scraped 174 unique activities total","service":"travel-agent","timestamp":"2025-09-13T20:18:39.411Z"}
+{"activitiesCount":174,"filepath":"C:\\Users\\marik\\Documents\\Travel\\travel-agent\\data\\reports\\daily-report-2025-09-13.json","level":"info","message":"Daily report generated successfully","service":"travel-agent","timestamp":"2025-09-13T20:18:39.438Z"}
+{"level":"info","message":"Starting Travel Agent application","service":"travel-agent","timestamp":"2025-09-14T10:53:36.525Z"}
+{"daysRemaining":45,"level":"info","location":"Montreal, Occitanie, France","message":"Travel Agent started","service":"travel-agent","timestamp":"2025-09-14T10:53:36.529Z"}
+{"level":"info","message":"Starting Travel Agent Scheduler","service":"travel-agent","timestamp":"2025-09-14T10:53:36.530Z"}
+{"level":"info","message":"Daily report scheduled for 8:00 (Europe/Paris timezone)","service":"travel-agent","timestamp":"2025-09-14T10:53:36.543Z"}
+{"level":"info","message":"Weekly summary scheduled for Sundays at 6 PM","service":"travel-agent","timestamp":"2025-09-14T10:53:36.544Z"}
+{"level":"info","message":"Generating initial daily report","service":"travel-agent","timestamp":"2025-09-14T10:53:36.546Z"}
+{"level":"info","message":"Starting daily activity report generation","service":"travel-agent","timestamp":"2025-09-14T10:53:36.546Z"}
+{"level":"info","message":"Starting scrape of 21 sources for Montreal","service":"travel-agent","timestamp":"2025-09-14T10:53:36.547Z"}
+{"level":"info","message":"Scraping TripAdvisor Montreal (Occitanie) (attempt 1)","service":"travel-agent","timestamp":"2025-09-14T10:53:36.548Z"}
+{"error":"Request failed with status code 403","level":"error","message":"Error scraping TripAdvisor Montreal (Occitanie) (attempt 1)","service":"travel-agent","timestamp":"2025-09-14T10:53:36.910Z","url":"https://www.tripadvisor.com/Attractions-g1087974-Activities-Montreal_du_Gers_Gers_Occitanie.html"}
+{"level":"info","message":"Scraping TripAdvisor Montreal (Occitanie) (attempt 2)","service":"travel-agent","timestamp":"2025-09-14T10:53:38.910Z"}
+{"error":"Request failed with status code 403","level":"error","message":"Error scraping TripAdvisor Montreal (Occitanie) (attempt 2)","service":"travel-agent","timestamp":"2025-09-14T10:53:39.036Z","url":"https://www.tripadvisor.com/Attractions-g1087974-Activities-Montreal_du_Gers_Gers_Occitanie.html"}
+{"level":"info","message":"Scraping TripAdvisor Montreal (Occitanie) (attempt 3)","service":"travel-agent","timestamp":"2025-09-14T10:53:43.039Z"}
+{"error":"Request failed with status code 403","level":"error","message":"Error scraping TripAdvisor Montreal (Occitanie) (attempt 3)","service":"travel-agent","timestamp":"2025-09-14T10:53:43.180Z","url":"https://www.tripadvisor.com/Attractions-g1087974-Activities-Montreal_du_Gers_Gers_Occitanie.html"}
+{"level":"error","message":"Failed to scrape TripAdvisor Montreal (Occitanie) after 3 attempts","service":"travel-agent","timestamp":"2025-09-14T10:53:43.180Z"}
+{"level":"info","message":"Scraping Local Events - Occitanie (attempt 1)","service":"travel-agent","timestamp":"2025-09-14T10:53:45.185Z"}
+{"level":"info","message":"Successfully scraped 0 activities from Local Events - Occitanie","service":"travel-agent","timestamp":"2025-09-14T10:53:46.146Z"}
+{"level":"info","message":"Scraping Grand Carcassonne Market Days (attempt 1)","service":"travel-agent","timestamp":"2025-09-14T10:53:48.149Z"}
+{"level":"info","message":"Successfully scraped 1 activities from Grand Carcassonne Market Days","service":"travel-agent","timestamp":"2025-09-14T10:53:49.425Z"}
+{"level":"info","message":"Scraping CDC Montagne Noire Agenda (attempt 1)","service":"travel-agent","timestamp":"2025-09-14T10:53:51.433Z"}
+{"level":"info","message":"Successfully scraped 0 activities from CDC Montagne Noire Agenda","service":"travel-agent","timestamp":"2025-09-14T10:53:52.333Z"}
+{"level":"info","message":"Scraping Visit Occitanie Markets & Festivals (attempt 1)","service":"travel-agent","timestamp":"2025-09-14T10:53:54.336Z"}
+{"level":"info","message":"Successfully scraped 5 activities from Visit Occitanie Markets & Festivals","service":"travel-agent","timestamp":"2025-09-14T10:53:56.097Z"}
+{"level":"info","message":"Scraping PanneauPocket Local Announcements (attempt 1)","service":"travel-agent","timestamp":"2025-09-14T10:53:58.099Z"}
+{"level":"info","message":"Successfully scraped 0 activities from PanneauPocket Local Announcements","service":"travel-agent","timestamp":"2025-09-14T10:54:02.097Z"}
+{"level":"info","message":"Scraping Vide-Greniers Aude (attempt 1)","service":"travel-agent","timestamp":"2025-09-14T10:54:04.102Z"}
+{"level":"info","message":"Successfully scraped 0 activities from Vide-Greniers Aude","service":"travel-agent","timestamp":"2025-09-14T10:54:05.034Z"}
+{"level":"info","message":"Scraping Marché Populaire Aude (attempt 1)","service":"travel-agent","timestamp":"2025-09-14T10:54:07.045Z"}
+{"level":"info","message":"Successfully scraped 2 activities from Marché Populaire Aude","service":"travel-agent","timestamp":"2025-09-14T10:54:07.926Z"}
+{"level":"info","message":"Scraping Aude Tourisme Gourmet Festivals (attempt 1)","service":"travel-agent","timestamp":"2025-09-14T10:54:09.931Z"}
+{"level":"info","message":"Successfully scraped 10 activities from Aude Tourisme Gourmet Festivals","service":"travel-agent","timestamp":"2025-09-14T10:54:10.796Z"}
+{"level":"info","message":"Scraping Castelnaudary Cassoulet Festival (attempt 1)","service":"travel-agent","timestamp":"2025-09-14T10:54:12.805Z"}
+{"level":"info","message":"Successfully scraped 10 activities from Castelnaudary Cassoulet Festival","service":"travel-agent","timestamp":"2025-09-14T10:54:13.929Z"}
+{"level":"info","message":"Scraping Grand Carcassonne All Events (attempt 1)","service":"travel-agent","timestamp":"2025-09-14T10:54:15.934Z"}
+{"level":"info","message":"Successfully scraped 3 activities from Grand Carcassonne All Events","service":"travel-agent","timestamp":"2025-09-14T10:54:16.966Z"}
+{"level":"info","message":"Scraping Gastronomiac Languedoc-Roussillon (attempt 1)","service":"travel-agent","timestamp":"2025-09-14T10:54:18.981Z"}
+{"level":"info","message":"Successfully scraped 2 activities from Gastronomiac Languedoc-Roussillon","service":"travel-agent","timestamp":"2025-09-14T10:54:20.373Z"}
+{"level":"info","message":"Scraping Grand Carcassonne Apple Wine Rice Fair (attempt 1)","service":"travel-agent","timestamp":"2025-09-14T10:54:22.377Z"}
+{"level":"info","message":"Successfully scraped 4 activities from Grand Carcassonne Apple Wine Rice Fair","service":"travel-agent","timestamp":"2025-09-14T10:54:23.671Z"}
+{"level":"info","message":"Scraping Grand Carcassonne Full Agenda (attempt 1)","service":"travel-agent","timestamp":"2025-09-14T10:54:25.683Z"}
+{"level":"info","message":"Successfully scraped 14 activities from Grand Carcassonne Full Agenda","service":"travel-agent","timestamp":"2025-09-14T10:54:26.366Z"}
+{"level":"info","message":"Scraping Ariège Pyrénées Main Agenda (attempt 1)","service":"travel-agent","timestamp":"2025-09-14T10:54:28.367Z"}
+{"level":"info","message":"Successfully scraped 10 activities from Ariège Pyrénées Main Agenda","service":"travel-agent","timestamp":"2025-09-14T10:54:29.345Z"}
+{"level":"info","message":"Scraping Foix Ariège Events (attempt 1)","service":"travel-agent","timestamp":"2025-09-14T10:54:31.357Z"}
+{"level":"info","message":"Successfully scraped 13 activities from Foix Ariège Events","service":"travel-agent","timestamp":"2025-09-14T10:54:32.372Z"}
+{"level":"info","message":"Scraping Pyrénées Ariégeoises Agenda (attempt 1)","service":"travel-agent","timestamp":"2025-09-14T10:54:34.373Z"}
+{"level":"info","message":"Successfully scraped 4 activities from Pyrénées Ariégeoises Agenda","service":"travel-agent","timestamp":"2025-09-14T10:54:35.647Z"}
+{"level":"info","message":"Scraping Tarn Tourism All Calendar (attempt 1)","service":"travel-agent","timestamp":"2025-09-14T10:54:37.657Z"}
+{"level":"info","message":"Successfully scraped 30 activities from Tarn Tourism All Calendar","service":"travel-agent","timestamp":"2025-09-14T10:54:39.605Z"}
+{"level":"info","message":"Scraping Tarn Festivals Calendar (attempt 1)","service":"travel-agent","timestamp":"2025-09-14T10:54:41.617Z"}
+{"level":"info","message":"Successfully scraped 31 activities from Tarn Festivals Calendar","service":"travel-agent","timestamp":"2025-09-14T10:54:42.147Z"}
+{"level":"info","message":"Scraping Aude Tourism Main Agenda (attempt 1)","service":"travel-agent","timestamp":"2025-09-14T10:54:44.152Z"}
+{"level":"info","message":"Successfully scraped 7 activities from Aude Tourism Main Agenda","service":"travel-agent","timestamp":"2025-09-14T10:54:44.928Z"}
+{"level":"info","message":"Scraping Aude Tourism All Events (attempt 1)","service":"travel-agent","timestamp":"2025-09-14T10:54:46.933Z"}
+{"level":"info","message":"Successfully scraped 24 activities from Aude Tourism All Events","service":"travel-agent","timestamp":"2025-09-14T10:54:47.345Z"}
+{"level":"info","message":"Added 25 static market entries","service":"travel-agent","timestamp":"2025-09-14T10:54:49.357Z"}
+{"level":"info","message":"Scraped 183 unique activities total","service":"travel-agent","timestamp":"2025-09-14T10:54:49.357Z"}
+{"activitiesCount":183,"filepath":"C:\\Users\\marik\\Documents\\Travel\\travel-agent\\data\\reports\\daily-report-2025-09-14.json","level":"info","message":"Daily report generated successfully","service":"travel-agent","timestamp":"2025-09-14T10:54:49.377Z"}
+{"level":"info","message":"Starting Travel Agent application","service":"travel-agent","timestamp":"2025-09-14T11:34:09.150Z"}
+{"daysRemaining":45,"level":"info","location":"Montreal, Occitanie, France","message":"Travel Agent started","service":"travel-agent","timestamp":"2025-09-14T11:34:09.159Z"}
+{"level":"info","message":"Starting Travel Agent Scheduler","service":"travel-agent","timestamp":"2025-09-14T11:34:09.160Z"}
+{"level":"info","message":"Daily report scheduled for 8:00 (Europe/Paris timezone)","service":"travel-agent","timestamp":"2025-09-14T11:34:09.178Z"}
+{"level":"info","message":"Weekly summary scheduled for Sundays at 6 PM","service":"travel-agent","timestamp":"2025-09-14T11:34:09.180Z"}
+{"level":"info","message":"Daily report already exists for today","service":"travel-agent","timestamp":"2025-09-14T11:34:09.185Z"}
+{"level":"info","message":"Starting daily activity report generation","service":"travel-agent","timestamp":"2025-09-14T11:50:53.492Z"}
+{"level":"info","message":"Starting scrape of 21 sources for Montreal","service":"travel-agent","timestamp":"2025-09-14T11:50:53.508Z"}
+{"level":"info","message":"Scraping TripAdvisor Montreal (Occitanie) (attempt 1)","service":"travel-agent","timestamp":"2025-09-14T11:50:53.509Z"}
+{"error":"Request failed with status code 403","level":"error","message":"Error scraping TripAdvisor Montreal (Occitanie) (attempt 1)","service":"travel-agent","timestamp":"2025-09-14T11:50:53.896Z","url":"https://www.tripadvisor.com/Attractions-g1087974-Activities-Montreal_du_Gers_Gers_Occitanie.html"}
+{"level":"info","message":"Scraping TripAdvisor Montreal (Occitanie) (attempt 2)","service":"travel-agent","timestamp":"2025-09-14T11:50:55.907Z"}
+{"error":"Request failed with status code 403","level":"error","message":"Error scraping TripAdvisor Montreal (Occitanie) (attempt 2)","service":"travel-agent","timestamp":"2025-09-14T11:50:56.035Z","url":"https://www.tripadvisor.com/Attractions-g1087974-Activities-Montreal_du_Gers_Gers_Occitanie.html"}
+{"level":"info","message":"Scraping TripAdvisor Montreal (Occitanie) (attempt 3)","service":"travel-agent","timestamp":"2025-09-14T11:51:00.038Z"}
+{"error":"Request failed with status code 403","level":"error","message":"Error scraping TripAdvisor Montreal (Occitanie) (attempt 3)","service":"travel-agent","timestamp":"2025-09-14T11:51:00.182Z","url":"https://www.tripadvisor.com/Attractions-g1087974-Activities-Montreal_du_Gers_Gers_Occitanie.html"}
+{"level":"error","message":"Failed to scrape TripAdvisor Montreal (Occitanie) after 3 attempts","service":"travel-agent","timestamp":"2025-09-14T11:51:00.183Z"}
+{"level":"info","message":"Scraping Local Events - Occitanie (attempt 1)","service":"travel-agent","timestamp":"2025-09-14T11:51:02.190Z"}
+{"level":"info","message":"Successfully scraped 0 activities from Local Events - Occitanie","service":"travel-agent","timestamp":"2025-09-14T11:51:03.014Z"}
+{"level":"info","message":"Scraping Grand Carcassonne Market Days (attempt 1)","service":"travel-agent","timestamp":"2025-09-14T11:51:05.018Z"}
+{"level":"info","message":"Successfully scraped 1 activities from Grand Carcassonne Market Days","service":"travel-agent","timestamp":"2025-09-14T11:51:06.084Z"}
+{"level":"info","message":"Scraping CDC Montagne Noire Agenda (attempt 1)","service":"travel-agent","timestamp":"2025-09-14T11:51:08.085Z"}
+{"level":"info","message":"Successfully scraped 0 activities from CDC Montagne Noire Agenda","service":"travel-agent","timestamp":"2025-09-14T11:51:08.782Z"}
+{"level":"info","message":"Scraping Visit Occitanie Markets & Festivals (attempt 1)","service":"travel-agent","timestamp":"2025-09-14T11:51:10.792Z"}
+{"level":"info","message":"Successfully scraped 5 activities from Visit Occitanie Markets & Festivals","service":"travel-agent","timestamp":"2025-09-14T11:51:12.179Z"}
+{"level":"info","message":"Scraping PanneauPocket Local Announcements (attempt 1)","service":"travel-agent","timestamp":"2025-09-14T11:51:14.189Z"}
+{"level":"info","message":"Successfully scraped 0 activities from PanneauPocket Local Announcements","service":"travel-agent","timestamp":"2025-09-14T11:51:18.049Z"}
+{"level":"info","message":"Scraping Vide-Greniers Aude (attempt 1)","service":"travel-agent","timestamp":"2025-09-14T11:51:20.057Z"}
+{"level":"info","message":"Successfully scraped 0 activities from Vide-Greniers Aude","service":"travel-agent","timestamp":"2025-09-14T11:51:20.885Z"}
+{"level":"info","message":"Scraping Marché Populaire Aude (attempt 1)","service":"travel-agent","timestamp":"2025-09-14T11:51:22.896Z"}
+{"level":"info","message":"Successfully scraped 2 activities from Marché Populaire Aude","service":"travel-agent","timestamp":"2025-09-14T11:51:23.604Z"}
+{"level":"info","message":"Scraping Aude Tourisme Gourmet Festivals (attempt 1)","service":"travel-agent","timestamp":"2025-09-14T11:51:25.605Z"}
+{"level":"info","message":"Successfully scraped 10 activities from Aude Tourisme Gourmet Festivals","service":"travel-agent","timestamp":"2025-09-14T11:51:26.332Z"}
+{"level":"info","message":"Scraping Castelnaudary Cassoulet Festival (attempt 1)","service":"travel-agent","timestamp":"2025-09-14T11:51:28.335Z"}
+{"level":"info","message":"Successfully scraped 10 activities from Castelnaudary Cassoulet Festival","service":"travel-agent","timestamp":"2025-09-14T11:51:29.289Z"}
+{"level":"info","message":"Scraping Grand Carcassonne All Events (attempt 1)","service":"travel-agent","timestamp":"2025-09-14T11:51:31.303Z"}
+{"level":"info","message":"Successfully scraped 3 activities from Grand Carcassonne All Events","service":"travel-agent","timestamp":"2025-09-14T11:51:32.300Z"}
+{"level":"info","message":"Scraping Gastronomiac Languedoc-Roussillon (attempt 1)","service":"travel-agent","timestamp":"2025-09-14T11:51:34.304Z"}
+{"level":"info","message":"Successfully scraped 2 activities from Gastronomiac Languedoc-Roussillon","service":"travel-agent","timestamp":"2025-09-14T11:51:35.284Z"}
+{"level":"info","message":"Scraping Grand Carcassonne Apple Wine Rice Fair (attempt 1)","service":"travel-agent","timestamp":"2025-09-14T11:51:37.285Z"}
+{"level":"info","message":"Successfully scraped 4 activities from Grand Carcassonne Apple Wine Rice Fair","service":"travel-agent","timestamp":"2025-09-14T11:51:38.427Z"}
+{"level":"info","message":"Scraping Grand Carcassonne Full Agenda (attempt 1)","service":"travel-agent","timestamp":"2025-09-14T11:51:40.430Z"}
+{"level":"info","message":"Successfully scraped 14 activities from Grand Carcassonne Full Agenda","service":"travel-agent","timestamp":"2025-09-14T11:51:41.115Z"}
+{"level":"info","message":"Scraping Ariège Pyrénées Main Agenda (attempt 1)","service":"travel-agent","timestamp":"2025-09-14T11:51:43.129Z"}
+{"level":"info","message":"Successfully scraped 10 activities from Ariège Pyrénées Main Agenda","service":"travel-agent","timestamp":"2025-09-14T11:51:44.006Z"}
+{"level":"info","message":"Scraping Foix Ariège Events (attempt 1)","service":"travel-agent","timestamp":"2025-09-14T11:51:46.018Z"}
+{"level":"info","message":"Successfully scraped 13 activities from Foix Ariège Events","service":"travel-agent","timestamp":"2025-09-14T11:51:46.912Z"}
+{"level":"info","message":"Scraping Pyrénées Ariégeoises Agenda (attempt 1)","service":"travel-agent","timestamp":"2025-09-14T11:51:48.912Z"}
+{"level":"info","message":"Successfully scraped 4 activities from Pyrénées Ariégeoises Agenda","service":"travel-agent","timestamp":"2025-09-14T11:51:49.870Z"}
+{"level":"info","message":"Scraping Tarn Tourism All Calendar (attempt 1)","service":"travel-agent","timestamp":"2025-09-14T11:51:51.872Z"}
+{"level":"info","message":"Successfully scraped 30 activities from Tarn Tourism All Calendar","service":"travel-agent","timestamp":"2025-09-14T11:51:53.832Z"}
+{"level":"info","message":"Scraping Tarn Festivals Calendar (attempt 1)","service":"travel-agent","timestamp":"2025-09-14T11:51:55.837Z"}
+{"level":"info","message":"Successfully scraped 31 activities from Tarn Festivals Calendar","service":"travel-agent","timestamp":"2025-09-14T11:51:56.379Z"}
+{"level":"info","message":"Scraping Aude Tourism Main Agenda (attempt 1)","service":"travel-agent","timestamp":"2025-09-14T11:51:58.383Z"}
+{"level":"info","message":"Successfully scraped 7 activities from Aude Tourism Main Agenda","service":"travel-agent","timestamp":"2025-09-14T11:51:59.223Z"}
+{"level":"info","message":"Scraping Aude Tourism All Events (attempt 1)","service":"travel-agent","timestamp":"2025-09-14T11:52:01.238Z"}
+{"level":"info","message":"Successfully scraped 24 activities from Aude Tourism All Events","service":"travel-agent","timestamp":"2025-09-14T11:52:01.646Z"}
+{"level":"info","message":"Added 25 static market entries","service":"travel-agent","timestamp":"2025-09-14T11:52:03.666Z"}
+{"level":"info","message":"Scraped 183 unique activities total","service":"travel-agent","timestamp":"2025-09-14T11:52:03.666Z"}
+{"error":"switchToPage(0) out of bounds, current buffer covers pages 2 to 2","level":"error","message":"Error generating PDF report","service":"travel-agent","timestamp":"2025-09-14T11:52:03.710Z"}
+{"level":"info","message":"Starting daily activity report generation","service":"travel-agent","timestamp":"2025-09-14T11:52:55.974Z"}
+{"level":"info","message":"Starting scrape of 21 sources for Montreal","service":"travel-agent","timestamp":"2025-09-14T11:52:55.979Z"}
+{"level":"info","message":"Scraping TripAdvisor Montreal (Occitanie) (attempt 1)","service":"travel-agent","timestamp":"2025-09-14T11:52:55.980Z"}
+{"error":"Request failed with status code 403","level":"error","message":"Error scraping TripAdvisor Montreal (Occitanie) (attempt 1)","service":"travel-agent","timestamp":"2025-09-14T11:52:56.384Z","url":"https://www.tripadvisor.com/Attractions-g1087974-Activities-Montreal_du_Gers_Gers_Occitanie.html"}
+{"level":"info","message":"Scraping TripAdvisor Montreal (Occitanie) (attempt 2)","service":"travel-agent","timestamp":"2025-09-14T11:52:58.395Z"}
+{"error":"Request failed with status code 403","level":"error","message":"Error scraping TripAdvisor Montreal (Occitanie) (attempt 2)","service":"travel-agent","timestamp":"2025-09-14T11:52:58.541Z","url":"https://www.tripadvisor.com/Attractions-g1087974-Activities-Montreal_du_Gers_Gers_Occitanie.html"}
+{"level":"info","message":"Scraping TripAdvisor Montreal (Occitanie) (attempt 3)","service":"travel-agent","timestamp":"2025-09-14T11:53:02.556Z"}
+{"error":"Request failed with status code 403","level":"error","message":"Error scraping TripAdvisor Montreal (Occitanie) (attempt 3)","service":"travel-agent","timestamp":"2025-09-14T11:53:02.705Z","url":"https://www.tripadvisor.com/Attractions-g1087974-Activities-Montreal_du_Gers_Gers_Occitanie.html"}
+{"level":"error","message":"Failed to scrape TripAdvisor Montreal (Occitanie) after 3 attempts","service":"travel-agent","timestamp":"2025-09-14T11:53:02.706Z"}
+{"level":"info","message":"Scraping Local Events - Occitanie (attempt 1)","service":"travel-agent","timestamp":"2025-09-14T11:53:04.706Z"}
+{"level":"info","message":"Successfully scraped 0 activities from Local Events - Occitanie","service":"travel-agent","timestamp":"2025-09-14T11:53:05.538Z"}
+{"level":"info","message":"Scraping Grand Carcassonne Market Days (attempt 1)","service":"travel-agent","timestamp":"2025-09-14T11:53:07.540Z"}
+{"level":"info","message":"Successfully scraped 1 activities from Grand Carcassonne Market Days","service":"travel-agent","timestamp":"2025-09-14T11:53:08.638Z"}
+{"level":"info","message":"Scraping CDC Montagne Noire Agenda (attempt 1)","service":"travel-agent","timestamp":"2025-09-14T11:53:10.657Z"}
+{"level":"info","message":"Successfully scraped 0 activities from CDC Montagne Noire Agenda","service":"travel-agent","timestamp":"2025-09-14T11:53:11.369Z"}
+{"level":"info","message":"Scraping Visit Occitanie Markets & Festivals (attempt 1)","service":"travel-agent","timestamp":"2025-09-14T11:53:13.375Z"}
+{"level":"info","message":"Successfully scraped 5 activities from Visit Occitanie Markets & Festivals","service":"travel-agent","timestamp":"2025-09-14T11:53:14.758Z"}
+{"level":"info","message":"Scraping PanneauPocket Local Announcements (attempt 1)","service":"travel-agent","timestamp":"2025-09-14T11:53:16.769Z"}
+{"level":"info","message":"Successfully scraped 0 activities from PanneauPocket Local Announcements","service":"travel-agent","timestamp":"2025-09-14T11:53:21.075Z"}
+{"level":"info","message":"Scraping Vide-Greniers Aude (attempt 1)","service":"travel-agent","timestamp":"2025-09-14T11:53:23.088Z"}
+{"level":"info","message":"Successfully scraped 0 activities from Vide-Greniers Aude","service":"travel-agent","timestamp":"2025-09-14T11:53:23.961Z"}
+{"level":"info","message":"Scraping Marché Populaire Aude (attempt 1)","service":"travel-agent","timestamp":"2025-09-14T11:53:25.968Z"}
+{"level":"info","message":"Successfully scraped 2 activities from Marché Populaire Aude","service":"travel-agent","timestamp":"2025-09-14T11:53:26.702Z"}
+{"level":"info","message":"Scraping Aude Tourisme Gourmet Festivals (attempt 1)","service":"travel-agent","timestamp":"2025-09-14T11:53:28.708Z"}
+{"level":"info","message":"Successfully scraped 10 activities from Aude Tourisme Gourmet Festivals","service":"travel-agent","timestamp":"2025-09-14T11:53:29.488Z"}
+{"level":"info","message":"Scraping Castelnaudary Cassoulet Festival (attempt 1)","service":"travel-agent","timestamp":"2025-09-14T11:53:31.496Z"}
+{"level":"info","message":"Successfully scraped 10 activities from Castelnaudary Cassoulet Festival","service":"travel-agent","timestamp":"2025-09-14T11:53:32.443Z"}
+{"level":"info","message":"Scraping Grand Carcassonne All Events (attempt 1)","service":"travel-agent","timestamp":"2025-09-14T11:53:34.451Z"}
+{"level":"info","message":"Successfully scraped 3 activities from Grand Carcassonne All Events","service":"travel-agent","timestamp":"2025-09-14T11:53:35.284Z"}
+{"level":"info","message":"Scraping Gastronomiac Languedoc-Roussillon (attempt 1)","service":"travel-agent","timestamp":"2025-09-14T11:53:37.287Z"}
+{"level":"info","message":"Successfully scraped 2 activities from Gastronomiac Languedoc-Roussillon","service":"travel-agent","timestamp":"2025-09-14T11:53:38.237Z"}
+{"level":"info","message":"Scraping Grand Carcassonne Apple Wine Rice Fair (attempt 1)","service":"travel-agent","timestamp":"2025-09-14T11:53:40.241Z"}
+{"level":"info","message":"Successfully scraped 4 activities from Grand Carcassonne Apple Wine Rice Fair","service":"travel-agent","timestamp":"2025-09-14T11:53:41.340Z"}
+{"level":"info","message":"Scraping Grand Carcassonne Full Agenda (attempt 1)","service":"travel-agent","timestamp":"2025-09-14T11:53:43.346Z"}
+{"level":"info","message":"Successfully scraped 14 activities from Grand Carcassonne Full Agenda","service":"travel-agent","timestamp":"2025-09-14T11:53:43.965Z"}
+{"level":"info","message":"Scraping Ariège Pyrénées Main Agenda (attempt 1)","service":"travel-agent","timestamp":"2025-09-14T11:53:45.967Z"}
+{"level":"info","message":"Successfully scraped 10 activities from Ariège Pyrénées Main Agenda","service":"travel-agent","timestamp":"2025-09-14T11:53:46.600Z"}
+{"level":"info","message":"Scraping Foix Ariège Events (attempt 1)","service":"travel-agent","timestamp":"2025-09-14T11:53:48.616Z"}
+{"level":"info","message":"Successfully scraped 13 activities from Foix Ariège Events","service":"travel-agent","timestamp":"2025-09-14T11:53:49.510Z"}
+{"level":"info","message":"Scraping Pyrénées Ariégeoises Agenda (attempt 1)","service":"travel-agent","timestamp":"2025-09-14T11:53:51.525Z"}
+{"level":"info","message":"Successfully scraped 4 activities from Pyrénées Ariégeoises Agenda","service":"travel-agent","timestamp":"2025-09-14T11:53:52.253Z"}
+{"level":"info","message":"Scraping Tarn Tourism All Calendar (attempt 1)","service":"travel-agent","timestamp":"2025-09-14T11:53:54.266Z"}
+{"level":"info","message":"Successfully scraped 30 activities from Tarn Tourism All Calendar","service":"travel-agent","timestamp":"2025-09-14T11:53:56.016Z"}
+{"level":"info","message":"Scraping Tarn Festivals Calendar (attempt 1)","service":"travel-agent","timestamp":"2025-09-14T11:53:58.033Z"}
+{"level":"info","message":"Successfully scraped 31 activities from Tarn Festivals Calendar","service":"travel-agent","timestamp":"2025-09-14T11:53:58.493Z"}
+{"level":"info","message":"Scraping Aude Tourism Main Agenda (attempt 1)","service":"travel-agent","timestamp":"2025-09-14T11:54:00.499Z"}
+{"level":"info","message":"Successfully scraped 7 activities from Aude Tourism Main Agenda","service":"travel-agent","timestamp":"2025-09-14T11:54:01.330Z"}
+{"level":"info","message":"Scraping Aude Tourism All Events (attempt 1)","service":"travel-agent","timestamp":"2025-09-14T11:54:03.332Z"}
+{"level":"info","message":"Successfully scraped 24 activities from Aude Tourism All Events","service":"travel-agent","timestamp":"2025-09-14T11:54:03.789Z"}
+{"level":"info","message":"Added 25 static market entries","service":"travel-agent","timestamp":"2025-09-14T11:54:05.791Z"}
+{"level":"info","message":"Scraped 183 unique activities total","service":"travel-agent","timestamp":"2025-09-14T11:54:05.792Z"}
+{"filepath":"C:\\Users\\marik\\Documents\\Travel\\travel-agent\\data\\reports\\daily-report-2025-09-14.pdf","level":"info","message":"PDF report generated successfully","service":"travel-agent","timestamp":"2025-09-14T11:54:05.868Z"}
+{"activitiesCount":183,"filepath":"C:\\Users\\marik\\Documents\\Travel\\travel-agent\\data\\reports\\daily-report-2025-09-14.json","level":"info","message":"Daily report generated successfully","service":"travel-agent","timestamp":"2025-09-14T11:54:05.869Z"}
